@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+NSInteger XZMusicGetServiceID;
+
+
 @interface XZNetBridge : NSObject
 
 + (id)sharedInstance;
-
++ (void)initServieId;
 
 + (NSString *)bridgeServiceWithId:(unsigned int)serviceId;
 

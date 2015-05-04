@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XZRequestManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    NSDictionary *params = @{@"tinguid":@"20", @"limits":@"7994"};
+
+    NSString *method = @"restserver/ting?from=ios&version=2.4.0&method=baidu.ting.artist.getSongList&format=json&order=2&offset=0";
+    
+    [[XZRequestManager shareInstance] asyncGetWithServiceID:XZMusicGetServiceID methodName:method params:params target:self action:@selector(requestReturn:)];
+}
+
+- (void)requestReturn:(XZRequestResponse *)response{
+    NSLog(@"response---->>%@",response.content);
 }
 
 - (void)didReceiveMemoryWarning {

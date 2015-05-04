@@ -10,7 +10,6 @@
 
 @implementation NSObject (XZNetMethod)
 
-
 - (id)XZNet_defaultValue:(id)defaultData
 {
     if (![defaultData isKindOfClass:[self class]]) {

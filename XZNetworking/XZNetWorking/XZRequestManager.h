@@ -10,14 +10,14 @@
 #import "XZRequestResponse.h"
 #import "XZNetBridge.h"
 
-unsigned int XZMusicGetServiceID;
-unsigned int XZMusicPostServiceID;
-unsigned int XZMusicRESTGetServiceID;
-unsigned int XZMusicRESTPostServiceID;
+
+NSInteger XZMusicGetServiceID;
 
 @interface XZRequestManager : NSObject
 
 + (id)shareInstance;
++ (void)initServieId;
++ (BOOL)isNetWorkReachable;
 
 #pragma mark --Normal request
 - (XZRequestID)asyncGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action;

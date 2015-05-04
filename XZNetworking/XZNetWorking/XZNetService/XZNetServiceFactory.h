@@ -13,5 +13,6 @@
 + (id)shareInstance;
 
 - (XZNetService<XZNetServiceProtocal> *)serviceWithIdentifier:(NSString *)identifier;
+- (XZNetService<XZNetServiceProtocal> *)newServiceWithIdentify:(NSString *)identify;
 
 @end

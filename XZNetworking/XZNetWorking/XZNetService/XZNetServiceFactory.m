@@ -7,12 +7,20 @@
 //
 
 #import "XZNetServiceFactory.h"
+#import "XZMusicForBaidu.h"
 
 // XZMusic
-NSString * const kXZMusicServiceGet = @"kXZMusicServiceGet";
-NSString * const kXZMusicServicePost = @"kXZMusicServicePost";
-NSString * const kXZMusicServiceRESTGet = @"kXZMusicServiceRESTGet";
-NSString * const kXZMusicServiceRESTPost = @"kXZMusicServiceRESTPost";
+NSString * const kXZMusicServiceGet = @"NXZMusicServiceGet";
+NSString * const kXZMusicServicePost = @"NXZMusicServicePost";
+NSString * const kXZMusicServiceRESTGet = @"NXZMusicServiceRESTGet";
+NSString * const kXZMusicServiceRESTPost = @"NXZMusicServiceRESTPost";
+
+// weibo
+NSString * const kXZWeiboServiceGet = @"NXZWeiboServiceGet";
+
+// baidu music
+NSString * const kXZBaiduMusicServiceGet = @"NXZBaiduMusicServiceGet";
+
 
 @interface XZNetServiceFactory ()
 @property(nonatomic, strong) NSMutableDictionary *serviceStorage;
@@ -46,6 +54,9 @@ NSString * const kXZMusicServiceRESTPost = @"kXZMusicServiceRESTPost";
 }
 
 - (XZNetService<XZNetServiceProtocal> *)newServiceWithIdentify:(NSString *)identify{
+    if ([identify isEqualToString:kXZMusicServiceGet]) {
+        return [[XZMusicForBaidu alloc] init];
+    }
     return nil;
 }
 

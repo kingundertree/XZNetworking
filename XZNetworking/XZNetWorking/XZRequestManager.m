@@ -8,6 +8,8 @@
 
 #import "XZRequestManager.h"
 #import "XZApiManager.h"
+#import "XZRequestResponse+XZNetMethod.h"
+#import "AFNetworkReachabilityManager.h"
 
 @implementation XZRequestManager
 
@@ -20,12 +22,58 @@
     return sharedInstance;
 }
 
-#pragma mark --Normal request
-- (XZRequestID)asyncGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)paras target:(id)target action:(SEL)action{
-    return 0;
++ (void)initServieId
+{
+    [XZNetBridge initServieId];
 }
-- (XZRequestID)asyncPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)paras target:(id)target action:(SEL)action{
-    return 0;
+
++ (BOOL)isNetWorkReachable{
+    
+    
+    if ([AFNetworkReachabilityManager sharedManager].networkReachabilityStatus == AFNetworkReachabilityStatusNotReachable){
+        return NO;
+    }
+    return YES;
+}
+
+
+#pragma mark --Normal request
+- (XZRequestID)asyncGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action
+{
+    NSInteger requestId = [[XZApiManager shareInstance] callGETWithParams:params
+                                                        serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                               methodName:methodName
+                                                                  success:^(XZRequestResponse *response)
+    {
+        if ([target respondsToSelector:action]) {
+            [target performSelector:action withObject:[response returnNetworkResponse]];
+        }
+    } fail:^(XZRequestResponse *response) {
+        if ([target respondsToSelector:action]) {
+            [target performSelector:action withObject:[response returnNetworkResponse]];
+        }
+    }];
+    
+    return (XZRequestID)requestId;
+}
+
+
+- (XZRequestID)asyncPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
+    NSInteger requestId = [[XZApiManager shareInstance] callPostWithParams:params
+                                                         serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                                methodName:methodName
+                                                                   success:^(XZRequestResponse *response)
+                           {
+                               if ([target respondsToSelector:action]) {
+                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                               }
+                           } fail:^(XZRequestResponse *response) {
+                               if ([target respondsToSelector:action]) {
+                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                               }
+                           }];
+    
+    return (XZRequestID)requestId;
 }
 
 - (XZRequestResponse *)syncGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
@@ -34,48 +82,80 @@
     }
     
     return [[XZApiManager shareInstance] callGETWithParams:params serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName];
+}
+- (XZRequestResponse *)syncPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
+    return [[XZApiManager shareInstance] callPostWithParams:params
+                                          serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                 methodName:methodName];
     
-    return nil;
-}
-- (XZRequestResponse *)syncPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSString *)params{
-    return 0;
 }
 
-
+#pragma mark - REST
 - (XZRequestID)asyncRESTGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
-    return 0;
+    NSInteger requestId = [[XZApiManager shareInstance] callRestfulGETWithParams:params
+                                                               serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName
+                                                                         success:
+                           ^(XZRequestResponse *response)
+                           {
+                               if ([target respondsToSelector:action]) {
+                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                               }
+                           }fail:^(XZRequestResponse *response)
+                           {
+                               if ([target respondsToSelector:action]) {
+                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                               }
+                           }];
+
+    
+    return (XZRequestID)requestId;
 }
 
 - (XZRequestID)asyncRESTPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
-    return 0;
-}
+    NSInteger requestId = [[XZApiManager shareInstance] callRestfulPOSTWithParams:params
+                                                                serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                                       methodName:methodName
+                                                                          success:^(XZRequestResponse *response)
+                           {
+                               if ([target respondsToSelector:action]) {
+                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                               }
+                           }
+                                                                             fail:^(XZRequestResponse *response)
+                           {
+                               if ([target respondsToSelector:action]) {
+                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                               }
+                           }];
 
+    return (XZRequestID)requestId;
+}
 - (XZRequestResponse *)syncRESTPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
-    return 0;
+    return [[XZApiManager shareInstance] callRestfulPOSTWithParams:params serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName];
 }
 
 - (XZRequestResponse *)syncRESTGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
-    return 0;
+    return [[XZApiManager shareInstance] callRestfulGETWithParams:params serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName];
 }
 
-- (void)cancelRequest:(XZRequestID)requestID{
-
+#pragma mark - Cancel requests
+- (void)cancelRequest:(XZRequestID)requestID
+{
+    [[XZApiManager shareInstance] cancelRequestWithRequestID:@(requestID)];
 }
 
-
-- (void)cancelRequestsWithTarget:(id)target{
-
+- (void)cancelRequestsWithTarget:(id)target
+{
+    //    [apiRequestProxy cancelRequestsWithTarget:target];
 }
 
 - (BOOL)isRest:(XZServiceType)serviceID{
-    if (serviceID == XZMusicGetServiceID ||
-        serviceID == XZMusicPostServiceID) {
+    if (serviceID == XZMusicGetServiceID) {
         return NO;
     }
     
     return YES;
 }
-
 
 
 @end

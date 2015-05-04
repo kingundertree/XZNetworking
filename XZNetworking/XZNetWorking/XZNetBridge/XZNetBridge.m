@@ -8,18 +8,11 @@
 
 #import "XZNetBridge.h"
 
-//unsigned int XZMusicGetServiceID;
-//unsigned int XZMusicPostServiceID;
-//unsigned int XZMusicRESTGetServiceID;
-//unsigned int XZMusicRESTPostServiceID;
-
-static unsigned int RTServiceID = 0;
+static NSInteger RTServiceID = 0;
 static NSArray *bridgeServiceTypeMap = nil;
 
-//NSString * const NXZMusicServiceGet = @"NXZMusicServiceGet";
-//NSString * const NXZMusicServicePost = @"NXZMusicServicePost";
-//NSString * const NXZMusicServiceRESTGet = @"NXZMusicServiceRESTGet";
-//NSString * const NXZMusicServiceRESTPost = @"NXZMusicServiceRESTPost";
+// music
+NSString * const NXZMusicServiceGet = @"NXZMusicServiceGet";
 
 
 @interface XZNetBridge ()
@@ -37,17 +30,11 @@ static NSArray *bridgeServiceTypeMap = nil;
     return sharedInstance;
 }
 
-+ (void)initialize{
-//    bridgeServiceTypeMap = @[NXZMusicServiceGet,
-//                             NXZMusicServicePost,
-//                             NXZMusicServiceRESTGet,
-//                             NXZMusicServiceRESTPost];
++ (void)initServieId{
+
+    bridgeServiceTypeMap = @[NXZMusicServiceGet];
  
-    bridgeServiceTypeMap = @[];
-//    XZMusicGetServiceID = RTServiceID;
-//    XZMusicPostServiceID = [self nextService];
-//    XZMusicRESTGetServiceID = [self nextService];
-//    XZMusicRESTPostServiceID = [self nextService];
+    XZMusicGetServiceID = RTServiceID;
 }
 
 + (NSString *)bridgeServiceWithId:(unsigned int)serviceId{
@@ -59,7 +46,7 @@ static NSArray *bridgeServiceTypeMap = nil;
     return bridgeServiceTypeMap[serviceId];
 }
 
-+ (unsigned int)nextService{
++ (NSInteger)nextService{
     return ++RTServiceID;
 };
 

@@ -40,6 +40,8 @@
 		F8B604631AF70B0500DE6745 /* XZRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6044C1AF70B0500DE6745 /* XZRequestResponse.m */; };
 		F8B604641AF70B0500DE6745 /* XZSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6044F1AF70B0500DE6745 /* XZSignatureGenerator.m */; };
 		F8B604671AF70B5200DE6745 /* NSMutableString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604661AF70B5200DE6745 /* NSMutableString+XZNetMethod.m */; };
+		F8B6046A1AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604691AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.m */; };
+		F8B6046E1AF711AC00DE6745 /* XZMusicForBaidu.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6046D1AF711AC00DE6745 /* XZMusicForBaidu.m */; };
 		FC199820A2F9E95C6B528FB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3DC42755C0BB7AC587273F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +120,10 @@
 		F8B6044F1AF70B0500DE6745 /* XZSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZSignatureGenerator.m; sourceTree = "<group>"; };
 		F8B604651AF70B5200DE6745 /* NSMutableString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XZNetMethod.h"; sourceTree = "<group>"; };
 		F8B604661AF70B5200DE6745 /* NSMutableString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B604681AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XZRequestResponse+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B604691AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XZRequestResponse+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B6046C1AF711AC00DE6745 /* XZMusicForBaidu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaidu.h; sourceTree = "<group>"; };
+		F8B6046D1AF711AC00DE6745 /* XZMusicForBaidu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaidu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +191,7 @@
 		F83D5E121AF4A59600E6646D /* XZNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				F8B6046B1AF70FB800DE6745 /* XZNetRequestService */,
 				F83D5E391AF4A69400E6646D /* XZNetWorking */,
 				F83D5E171AF4A59600E6646D /* AppDelegate.h */,
 				F83D5E181AF4A59600E6646D /* AppDelegate.m */,
@@ -264,6 +271,8 @@
 		F8B604271AF70B0500DE6745 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				F8B604681AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.h */,
+				F8B604691AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.m */,
 				F8B604651AF70B5200DE6745 /* NSMutableString+XZNetMethod.h */,
 				F8B604661AF70B5200DE6745 /* NSMutableString+XZNetMethod.m */,
 				F8B604281AF70B0500DE6745 /* NSArray+XZNetMethod.h */,
@@ -338,6 +347,15 @@
 				F8B6044F1AF70B0500DE6745 /* XZSignatureGenerator.m */,
 			);
 			path = XZSignatureGenerator;
+			sourceTree = "<group>";
+		};
+		F8B6046B1AF70FB800DE6745 /* XZNetRequestService */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6046C1AF711AC00DE6745 /* XZMusicForBaidu.h */,
+				F8B6046D1AF711AC00DE6745 /* XZMusicForBaidu.m */,
+			);
+			name = XZNetRequestService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -490,9 +508,11 @@
 				F8B604671AF70B5200DE6745 /* NSMutableString+XZNetMethod.m in Sources */,
 				F8B604521AF70B0500DE6745 /* XZNetCommonParamsGenerator.m in Sources */,
 				F8B604641AF70B0500DE6745 /* XZSignatureGenerator.m in Sources */,
+				F8B6046E1AF711AC00DE6745 /* XZMusicForBaidu.m in Sources */,
 				F8B6045B1AF70B0500DE6745 /* XZAppContext.m in Sources */,
 				F8B604561AF70B0500DE6745 /* NSObject+XZNetMethod.m in Sources */,
 				F8B604611AF70B0500DE6745 /* XZRequestGenerator.m in Sources */,
+				F8B6046A1AF70F1A00DE6745 /* XZRequestResponse+XZNetMethod.m in Sources */,
 				F8B604631AF70B0500DE6745 /* XZRequestResponse.m in Sources */,
 				F8B604581AF70B0500DE6745 /* NSString+XZNetMethod.m in Sources */,
 				F8B604591AF70B0500DE6745 /* NSURLRequest+XZNetMethod.m in Sources */,
