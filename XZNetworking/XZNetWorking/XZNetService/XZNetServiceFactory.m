@@ -7,7 +7,6 @@
 //
 
 #import "XZNetServiceFactory.h"
-#import "XZMusicForBaidu.h"
 
 // XZMusic
 NSString * const kXZMusicServiceGet = @"kXZMusicServiceGet";
@@ -47,9 +46,6 @@ NSString * const kXZMusicServiceRESTPost = @"kXZMusicServiceRESTPost";
 }
 
 - (XZNetService<XZNetServiceProtocal> *)newServiceWithIdentify:(NSString *)identify{
-    if ([identify isEqualToString:kXZMusicServiceGet]) {
-        return [[XZMusicForBaidu alloc] init];
-    }
     return nil;
 }
 

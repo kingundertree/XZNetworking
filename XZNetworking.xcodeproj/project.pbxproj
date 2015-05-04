@@ -14,31 +14,32 @@
 		F83D5E211AF4A59600E6646D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83D5E201AF4A59600E6646D /* Images.xcassets */; };
 		F83D5E241AF4A59600E6646D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83D5E221AF4A59600E6646D /* LaunchScreen.xib */; };
 		F83D5E301AF4A59600E6646D /* XZNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E2F1AF4A59600E6646D /* XZNetworkingTests.m */; };
-		F83D5E641AF4A69400E6646D /* NSArray+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E3B1AF4A69400E6646D /* NSArray+XZNetMethod.m */; };
-		F83D5E651AF4A69400E6646D /* NSDictionary+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E3D1AF4A69400E6646D /* NSDictionary+XZNetMethod.m */; };
-		F83D5E661AF4A69400E6646D /* NSObject+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E3F1AF4A69400E6646D /* NSObject+XZNetMethod.m */; };
-		F83D5E671AF4A69400E6646D /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E411AF4A69400E6646D /* NSString+MD5Addition.m */; };
-		F83D5E681AF4A69400E6646D /* NSString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E431AF4A69400E6646D /* NSString+XZNetMethod.m */; };
-		F83D5E691AF4A69400E6646D /* NSURLRequest+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E451AF4A69400E6646D /* NSURLRequest+XZNetMethod.m */; };
-		F83D5E6A1AF4A69400E6646D /* UIDevice+XZIdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E471AF4A69400E6646D /* UIDevice+XZIdentifierAddition.m */; };
-		F83D5E6B1AF4A69400E6646D /* XZApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E491AF4A69400E6646D /* XZApiManager.m */; };
-		F83D5E6C1AF4A69400E6646D /* XZAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E4B1AF4A69400E6646D /* XZAppContext.m */; };
-		F83D5E6D1AF4A69400E6646D /* XZDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E4D1AF4A69400E6646D /* XZDeviceInfo.m */; };
-		F83D5E6E1AF4A69400E6646D /* XZKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E4F1AF4A69400E6646D /* XZKeychain.m */; };
-		F83D5E6F1AF4A69400E6646D /* XZMusicForBaidu.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E511AF4A69400E6646D /* XZMusicForBaidu.m */; };
-		F83D5E701AF4A69400E6646D /* XZNetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E531AF4A69400E6646D /* XZNetBridge.m */; };
-		F83D5E711AF4A69400E6646D /* XZNetCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E551AF4A69400E6646D /* XZNetCommonParamsGenerator.m */; };
-		F83D5E721AF4A69400E6646D /* XZNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E571AF4A69400E6646D /* XZNetService.m */; };
-		F83D5E731AF4A69400E6646D /* XZNetServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E591AF4A69400E6646D /* XZNetServiceFactory.m */; };
-		F83D5E741AF4A69400E6646D /* XZRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E5B1AF4A69400E6646D /* XZRequestGenerator.m */; };
-		F83D5E751AF4A69400E6646D /* XZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E5D1AF4A69400E6646D /* XZRequestManager.m */; };
-		F83D5E761AF4A69400E6646D /* XZRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E5F1AF4A69400E6646D /* XZRequestResponse.m */; };
-		F83D5E771AF4A69400E6646D /* XZSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E611AF4A69400E6646D /* XZSignatureGenerator.m */; };
-		F83D5E781AF4A69400E6646D /* XZUDIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E631AF4A69400E6646D /* XZUDIDGenerator.m */; };
 		F83D5E7A1AF4A70C00E6646D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83D5E791AF4A70C00E6646D /* Images-2.xcassets */; };
 		F83D5EBC1AF4A79300E6646D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D5EBB1AF4A79300E6646D /* UIKit.framework */; };
 		F83D5EBE1AF4A7A200E6646D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D5EBD1AF4A7A200E6646D /* CoreGraphics.framework */; };
 		F83D5EC01AF4A7AD00E6646D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D5EBF1AF4A7AD00E6646D /* Foundation.framework */; };
+		F8B604501AF70B0500DE6745 /* XZDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604201AF70B0500DE6745 /* XZDeviceInfo.m */; };
+		F8B604511AF70B0500DE6745 /* XZKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604221AF70B0500DE6745 /* XZKeychain.m */; };
+		F8B604521AF70B0500DE6745 /* XZNetCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604241AF70B0500DE6745 /* XZNetCommonParamsGenerator.m */; };
+		F8B604531AF70B0500DE6745 /* XZUDIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604261AF70B0500DE6745 /* XZUDIDGenerator.m */; };
+		F8B604541AF70B0500DE6745 /* NSArray+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604291AF70B0500DE6745 /* NSArray+XZNetMethod.m */; };
+		F8B604551AF70B0500DE6745 /* NSDictionary+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6042B1AF70B0500DE6745 /* NSDictionary+XZNetMethod.m */; };
+		F8B604561AF70B0500DE6745 /* NSObject+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6042D1AF70B0500DE6745 /* NSObject+XZNetMethod.m */; };
+		F8B604571AF70B0500DE6745 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6042F1AF70B0500DE6745 /* NSString+MD5Addition.m */; };
+		F8B604581AF70B0500DE6745 /* NSString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604311AF70B0500DE6745 /* NSString+XZNetMethod.m */; };
+		F8B604591AF70B0500DE6745 /* NSURLRequest+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604331AF70B0500DE6745 /* NSURLRequest+XZNetMethod.m */; };
+		F8B6045A1AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604351AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.m */; };
+		F8B6045B1AF70B0500DE6745 /* XZAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604381AF70B0500DE6745 /* XZAppContext.m */; };
+		F8B6045C1AF70B0500DE6745 /* XZNetDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6043B1AF70B0500DE6745 /* XZNetDebug.m */; };
+		F8B6045D1AF70B0500DE6745 /* XZApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6043D1AF70B0500DE6745 /* XZApiManager.m */; };
+		F8B6045E1AF70B0500DE6745 /* XZNetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604401AF70B0500DE6745 /* XZNetBridge.m */; };
+		F8B6045F1AF70B0500DE6745 /* XZNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604431AF70B0500DE6745 /* XZNetService.m */; };
+		F8B604601AF70B0500DE6745 /* XZNetServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604451AF70B0500DE6745 /* XZNetServiceFactory.m */; };
+		F8B604611AF70B0500DE6745 /* XZRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604471AF70B0500DE6745 /* XZRequestGenerator.m */; };
+		F8B604621AF70B0500DE6745 /* XZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604491AF70B0500DE6745 /* XZRequestManager.m */; };
+		F8B604631AF70B0500DE6745 /* XZRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6044C1AF70B0500DE6745 /* XZRequestResponse.m */; };
+		F8B604641AF70B0500DE6745 /* XZSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6044F1AF70B0500DE6745 /* XZSignatureGenerator.m */; };
+		F8B604671AF70B5200DE6745 /* NSMutableString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604661AF70B5200DE6745 /* NSMutableString+XZNetMethod.m */; };
 		FC199820A2F9E95C6B528FB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3DC42755C0BB7AC587273F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -69,52 +70,54 @@
 		F83D5E291AF4A59600E6646D /* XZNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83D5E2E1AF4A59600E6646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83D5E2F1AF4A59600E6646D /* XZNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZNetworkingTests.m; sourceTree = "<group>"; };
-		F83D5E3A1AF4A69400E6646D /* NSArray+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZNetMethod.h"; sourceTree = "<group>"; };
-		F83D5E3B1AF4A69400E6646D /* NSArray+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZNetMethod.m"; sourceTree = "<group>"; };
-		F83D5E3C1AF4A69400E6646D /* NSDictionary+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZNetMethod.h"; sourceTree = "<group>"; };
-		F83D5E3D1AF4A69400E6646D /* NSDictionary+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZNetMethod.m"; sourceTree = "<group>"; };
-		F83D5E3E1AF4A69400E6646D /* NSObject+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XZNetMethod.h"; sourceTree = "<group>"; };
-		F83D5E3F1AF4A69400E6646D /* NSObject+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XZNetMethod.m"; sourceTree = "<group>"; };
-		F83D5E401AF4A69400E6646D /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		F83D5E411AF4A69400E6646D /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		F83D5E421AF4A69400E6646D /* NSString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZNetMethod.h"; sourceTree = "<group>"; };
-		F83D5E431AF4A69400E6646D /* NSString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZNetMethod.m"; sourceTree = "<group>"; };
-		F83D5E441AF4A69400E6646D /* NSURLRequest+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XZNetMethod.h"; sourceTree = "<group>"; };
-		F83D5E451AF4A69400E6646D /* NSURLRequest+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+XZNetMethod.m"; sourceTree = "<group>"; };
-		F83D5E461AF4A69400E6646D /* UIDevice+XZIdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XZIdentifierAddition.h"; sourceTree = "<group>"; };
-		F83D5E471AF4A69400E6646D /* UIDevice+XZIdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZIdentifierAddition.m"; sourceTree = "<group>"; };
-		F83D5E481AF4A69400E6646D /* XZApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZApiManager.h; sourceTree = "<group>"; };
-		F83D5E491AF4A69400E6646D /* XZApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZApiManager.m; sourceTree = "<group>"; };
-		F83D5E4A1AF4A69400E6646D /* XZAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZAppContext.h; sourceTree = "<group>"; };
-		F83D5E4B1AF4A69400E6646D /* XZAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZAppContext.m; sourceTree = "<group>"; };
-		F83D5E4C1AF4A69400E6646D /* XZDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDeviceInfo.h; sourceTree = "<group>"; };
-		F83D5E4D1AF4A69400E6646D /* XZDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDeviceInfo.m; sourceTree = "<group>"; };
-		F83D5E4E1AF4A69400E6646D /* XZKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKeychain.h; sourceTree = "<group>"; };
-		F83D5E4F1AF4A69400E6646D /* XZKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKeychain.m; sourceTree = "<group>"; };
-		F83D5E501AF4A69400E6646D /* XZMusicForBaidu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaidu.h; sourceTree = "<group>"; };
-		F83D5E511AF4A69400E6646D /* XZMusicForBaidu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaidu.m; sourceTree = "<group>"; };
-		F83D5E521AF4A69400E6646D /* XZNetBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetBridge.h; sourceTree = "<group>"; };
-		F83D5E531AF4A69400E6646D /* XZNetBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetBridge.m; sourceTree = "<group>"; };
-		F83D5E541AF4A69400E6646D /* XZNetCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetCommonParamsGenerator.h; sourceTree = "<group>"; };
-		F83D5E551AF4A69400E6646D /* XZNetCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetCommonParamsGenerator.m; sourceTree = "<group>"; };
-		F83D5E561AF4A69400E6646D /* XZNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetService.h; sourceTree = "<group>"; };
-		F83D5E571AF4A69400E6646D /* XZNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetService.m; sourceTree = "<group>"; };
-		F83D5E581AF4A69400E6646D /* XZNetServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetServiceFactory.h; sourceTree = "<group>"; };
-		F83D5E591AF4A69400E6646D /* XZNetServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetServiceFactory.m; sourceTree = "<group>"; };
-		F83D5E5A1AF4A69400E6646D /* XZRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestGenerator.h; sourceTree = "<group>"; };
-		F83D5E5B1AF4A69400E6646D /* XZRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestGenerator.m; sourceTree = "<group>"; };
-		F83D5E5C1AF4A69400E6646D /* XZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestManager.h; sourceTree = "<group>"; };
-		F83D5E5D1AF4A69400E6646D /* XZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestManager.m; sourceTree = "<group>"; };
-		F83D5E5E1AF4A69400E6646D /* XZRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestResponse.h; sourceTree = "<group>"; };
-		F83D5E5F1AF4A69400E6646D /* XZRequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestResponse.m; sourceTree = "<group>"; };
-		F83D5E601AF4A69400E6646D /* XZSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZSignatureGenerator.h; sourceTree = "<group>"; };
-		F83D5E611AF4A69400E6646D /* XZSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZSignatureGenerator.m; sourceTree = "<group>"; };
-		F83D5E621AF4A69400E6646D /* XZUDIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZUDIDGenerator.h; sourceTree = "<group>"; };
-		F83D5E631AF4A69400E6646D /* XZUDIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZUDIDGenerator.m; sourceTree = "<group>"; };
 		F83D5E791AF4A70C00E6646D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		F83D5EBB1AF4A79300E6646D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F83D5EBD1AF4A7A200E6646D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F83D5EBF1AF4A7AD00E6646D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8B6041F1AF70B0500DE6745 /* XZDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDeviceInfo.h; sourceTree = "<group>"; };
+		F8B604201AF70B0500DE6745 /* XZDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDeviceInfo.m; sourceTree = "<group>"; };
+		F8B604211AF70B0500DE6745 /* XZKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKeychain.h; sourceTree = "<group>"; };
+		F8B604221AF70B0500DE6745 /* XZKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKeychain.m; sourceTree = "<group>"; };
+		F8B604231AF70B0500DE6745 /* XZNetCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetCommonParamsGenerator.h; sourceTree = "<group>"; };
+		F8B604241AF70B0500DE6745 /* XZNetCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetCommonParamsGenerator.m; sourceTree = "<group>"; };
+		F8B604251AF70B0500DE6745 /* XZUDIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZUDIDGenerator.h; sourceTree = "<group>"; };
+		F8B604261AF70B0500DE6745 /* XZUDIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZUDIDGenerator.m; sourceTree = "<group>"; };
+		F8B604281AF70B0500DE6745 /* NSArray+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B604291AF70B0500DE6745 /* NSArray+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B6042A1AF70B0500DE6745 /* NSDictionary+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B6042B1AF70B0500DE6745 /* NSDictionary+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B6042C1AF70B0500DE6745 /* NSObject+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B6042D1AF70B0500DE6745 /* NSObject+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B6042E1AF70B0500DE6745 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		F8B6042F1AF70B0500DE6745 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		F8B604301AF70B0500DE6745 /* NSString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B604311AF70B0500DE6745 /* NSString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B604321AF70B0500DE6745 /* NSURLRequest+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B604331AF70B0500DE6745 /* NSURLRequest+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8B604341AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XZIdentifierAddition.h"; sourceTree = "<group>"; };
+		F8B604351AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZIdentifierAddition.m"; sourceTree = "<group>"; };
+		F8B604371AF70B0500DE6745 /* XZAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZAppContext.h; sourceTree = "<group>"; };
+		F8B604381AF70B0500DE6745 /* XZAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZAppContext.m; sourceTree = "<group>"; };
+		F8B6043A1AF70B0500DE6745 /* XZNetDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetDebug.h; sourceTree = "<group>"; };
+		F8B6043B1AF70B0500DE6745 /* XZNetDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetDebug.m; sourceTree = "<group>"; };
+		F8B6043C1AF70B0500DE6745 /* XZApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZApiManager.h; sourceTree = "<group>"; };
+		F8B6043D1AF70B0500DE6745 /* XZApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZApiManager.m; sourceTree = "<group>"; };
+		F8B6043F1AF70B0500DE6745 /* XZNetBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetBridge.h; sourceTree = "<group>"; };
+		F8B604401AF70B0500DE6745 /* XZNetBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetBridge.m; sourceTree = "<group>"; };
+		F8B604421AF70B0500DE6745 /* XZNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetService.h; sourceTree = "<group>"; };
+		F8B604431AF70B0500DE6745 /* XZNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetService.m; sourceTree = "<group>"; };
+		F8B604441AF70B0500DE6745 /* XZNetServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetServiceFactory.h; sourceTree = "<group>"; };
+		F8B604451AF70B0500DE6745 /* XZNetServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetServiceFactory.m; sourceTree = "<group>"; };
+		F8B604461AF70B0500DE6745 /* XZRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestGenerator.h; sourceTree = "<group>"; };
+		F8B604471AF70B0500DE6745 /* XZRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestGenerator.m; sourceTree = "<group>"; };
+		F8B604481AF70B0500DE6745 /* XZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestManager.h; sourceTree = "<group>"; };
+		F8B604491AF70B0500DE6745 /* XZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestManager.m; sourceTree = "<group>"; };
+		F8B6044B1AF70B0500DE6745 /* XZRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestResponse.h; sourceTree = "<group>"; };
+		F8B6044C1AF70B0500DE6745 /* XZRequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestResponse.m; sourceTree = "<group>"; };
+		F8B6044E1AF70B0500DE6745 /* XZSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZSignatureGenerator.h; sourceTree = "<group>"; };
+		F8B6044F1AF70B0500DE6745 /* XZSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZSignatureGenerator.m; sourceTree = "<group>"; };
+		F8B604651AF70B5200DE6745 /* NSMutableString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8B604661AF70B5200DE6745 /* NSMutableString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XZNetMethod.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,50 +228,116 @@
 		F83D5E391AF4A69400E6646D /* XZNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				F83D5E3A1AF4A69400E6646D /* NSArray+XZNetMethod.h */,
-				F83D5E3B1AF4A69400E6646D /* NSArray+XZNetMethod.m */,
-				F83D5E3C1AF4A69400E6646D /* NSDictionary+XZNetMethod.h */,
-				F83D5E3D1AF4A69400E6646D /* NSDictionary+XZNetMethod.m */,
-				F83D5E3E1AF4A69400E6646D /* NSObject+XZNetMethod.h */,
-				F83D5E3F1AF4A69400E6646D /* NSObject+XZNetMethod.m */,
-				F83D5E401AF4A69400E6646D /* NSString+MD5Addition.h */,
-				F83D5E411AF4A69400E6646D /* NSString+MD5Addition.m */,
-				F83D5E421AF4A69400E6646D /* NSString+XZNetMethod.h */,
-				F83D5E431AF4A69400E6646D /* NSString+XZNetMethod.m */,
-				F83D5E441AF4A69400E6646D /* NSURLRequest+XZNetMethod.h */,
-				F83D5E451AF4A69400E6646D /* NSURLRequest+XZNetMethod.m */,
-				F83D5E461AF4A69400E6646D /* UIDevice+XZIdentifierAddition.h */,
-				F83D5E471AF4A69400E6646D /* UIDevice+XZIdentifierAddition.m */,
-				F83D5E481AF4A69400E6646D /* XZApiManager.h */,
-				F83D5E491AF4A69400E6646D /* XZApiManager.m */,
-				F83D5E4A1AF4A69400E6646D /* XZAppContext.h */,
-				F83D5E4B1AF4A69400E6646D /* XZAppContext.m */,
-				F83D5E4C1AF4A69400E6646D /* XZDeviceInfo.h */,
-				F83D5E4D1AF4A69400E6646D /* XZDeviceInfo.m */,
-				F83D5E4E1AF4A69400E6646D /* XZKeychain.h */,
-				F83D5E4F1AF4A69400E6646D /* XZKeychain.m */,
-				F83D5E501AF4A69400E6646D /* XZMusicForBaidu.h */,
-				F83D5E511AF4A69400E6646D /* XZMusicForBaidu.m */,
-				F83D5E521AF4A69400E6646D /* XZNetBridge.h */,
-				F83D5E531AF4A69400E6646D /* XZNetBridge.m */,
-				F83D5E541AF4A69400E6646D /* XZNetCommonParamsGenerator.h */,
-				F83D5E551AF4A69400E6646D /* XZNetCommonParamsGenerator.m */,
-				F83D5E561AF4A69400E6646D /* XZNetService.h */,
-				F83D5E571AF4A69400E6646D /* XZNetService.m */,
-				F83D5E581AF4A69400E6646D /* XZNetServiceFactory.h */,
-				F83D5E591AF4A69400E6646D /* XZNetServiceFactory.m */,
-				F83D5E5A1AF4A69400E6646D /* XZRequestGenerator.h */,
-				F83D5E5B1AF4A69400E6646D /* XZRequestGenerator.m */,
-				F83D5E5C1AF4A69400E6646D /* XZRequestManager.h */,
-				F83D5E5D1AF4A69400E6646D /* XZRequestManager.m */,
-				F83D5E5E1AF4A69400E6646D /* XZRequestResponse.h */,
-				F83D5E5F1AF4A69400E6646D /* XZRequestResponse.m */,
-				F83D5E601AF4A69400E6646D /* XZSignatureGenerator.h */,
-				F83D5E611AF4A69400E6646D /* XZSignatureGenerator.m */,
-				F83D5E621AF4A69400E6646D /* XZUDIDGenerator.h */,
-				F83D5E631AF4A69400E6646D /* XZUDIDGenerator.m */,
+				F8B6041E1AF70B0500DE6745 /* Assist */,
+				F8B604271AF70B0500DE6745 /* Category */,
+				F8B604361AF70B0500DE6745 /* Components */,
+				F8B604391AF70B0500DE6745 /* Debug */,
+				F8B6043E1AF70B0500DE6745 /* XZNetBridge */,
+				F8B604411AF70B0500DE6745 /* XZNetService */,
+				F8B6043C1AF70B0500DE6745 /* XZApiManager.h */,
+				F8B6043D1AF70B0500DE6745 /* XZApiManager.m */,
+				F8B604461AF70B0500DE6745 /* XZRequestGenerator.h */,
+				F8B604471AF70B0500DE6745 /* XZRequestGenerator.m */,
+				F8B604481AF70B0500DE6745 /* XZRequestManager.h */,
+				F8B604491AF70B0500DE6745 /* XZRequestManager.m */,
+				F8B6044A1AF70B0500DE6745 /* XZResponse */,
+				F8B6044D1AF70B0500DE6745 /* XZSignatureGenerator */,
 			);
 			path = XZNetWorking;
+			sourceTree = "<group>";
+		};
+		F8B6041E1AF70B0500DE6745 /* Assist */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6041F1AF70B0500DE6745 /* XZDeviceInfo.h */,
+				F8B604201AF70B0500DE6745 /* XZDeviceInfo.m */,
+				F8B604211AF70B0500DE6745 /* XZKeychain.h */,
+				F8B604221AF70B0500DE6745 /* XZKeychain.m */,
+				F8B604231AF70B0500DE6745 /* XZNetCommonParamsGenerator.h */,
+				F8B604241AF70B0500DE6745 /* XZNetCommonParamsGenerator.m */,
+				F8B604251AF70B0500DE6745 /* XZUDIDGenerator.h */,
+				F8B604261AF70B0500DE6745 /* XZUDIDGenerator.m */,
+			);
+			path = Assist;
+			sourceTree = "<group>";
+		};
+		F8B604271AF70B0500DE6745 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F8B604651AF70B5200DE6745 /* NSMutableString+XZNetMethod.h */,
+				F8B604661AF70B5200DE6745 /* NSMutableString+XZNetMethod.m */,
+				F8B604281AF70B0500DE6745 /* NSArray+XZNetMethod.h */,
+				F8B604291AF70B0500DE6745 /* NSArray+XZNetMethod.m */,
+				F8B6042A1AF70B0500DE6745 /* NSDictionary+XZNetMethod.h */,
+				F8B6042B1AF70B0500DE6745 /* NSDictionary+XZNetMethod.m */,
+				F8B6042C1AF70B0500DE6745 /* NSObject+XZNetMethod.h */,
+				F8B6042D1AF70B0500DE6745 /* NSObject+XZNetMethod.m */,
+				F8B6042E1AF70B0500DE6745 /* NSString+MD5Addition.h */,
+				F8B6042F1AF70B0500DE6745 /* NSString+MD5Addition.m */,
+				F8B604301AF70B0500DE6745 /* NSString+XZNetMethod.h */,
+				F8B604311AF70B0500DE6745 /* NSString+XZNetMethod.m */,
+				F8B604321AF70B0500DE6745 /* NSURLRequest+XZNetMethod.h */,
+				F8B604331AF70B0500DE6745 /* NSURLRequest+XZNetMethod.m */,
+				F8B604341AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.h */,
+				F8B604351AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F8B604361AF70B0500DE6745 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F8B604371AF70B0500DE6745 /* XZAppContext.h */,
+				F8B604381AF70B0500DE6745 /* XZAppContext.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F8B604391AF70B0500DE6745 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6043A1AF70B0500DE6745 /* XZNetDebug.h */,
+				F8B6043B1AF70B0500DE6745 /* XZNetDebug.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		F8B6043E1AF70B0500DE6745 /* XZNetBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6043F1AF70B0500DE6745 /* XZNetBridge.h */,
+				F8B604401AF70B0500DE6745 /* XZNetBridge.m */,
+			);
+			path = XZNetBridge;
+			sourceTree = "<group>";
+		};
+		F8B604411AF70B0500DE6745 /* XZNetService */ = {
+			isa = PBXGroup;
+			children = (
+				F8B604421AF70B0500DE6745 /* XZNetService.h */,
+				F8B604431AF70B0500DE6745 /* XZNetService.m */,
+				F8B604441AF70B0500DE6745 /* XZNetServiceFactory.h */,
+				F8B604451AF70B0500DE6745 /* XZNetServiceFactory.m */,
+			);
+			path = XZNetService;
+			sourceTree = "<group>";
+		};
+		F8B6044A1AF70B0500DE6745 /* XZResponse */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6044B1AF70B0500DE6745 /* XZRequestResponse.h */,
+				F8B6044C1AF70B0500DE6745 /* XZRequestResponse.m */,
+			);
+			path = XZResponse;
+			sourceTree = "<group>";
+		};
+		F8B6044D1AF70B0500DE6745 /* XZSignatureGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6044E1AF70B0500DE6745 /* XZSignatureGenerator.h */,
+				F8B6044F1AF70B0500DE6745 /* XZSignatureGenerator.m */,
+			);
+			path = XZSignatureGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,30 +476,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F83D5E651AF4A69400E6646D /* NSDictionary+XZNetMethod.m in Sources */,
-				F83D5E721AF4A69400E6646D /* XZNetService.m in Sources */,
-				F83D5E691AF4A69400E6646D /* NSURLRequest+XZNetMethod.m in Sources */,
-				F83D5E781AF4A69400E6646D /* XZUDIDGenerator.m in Sources */,
-				F83D5E671AF4A69400E6646D /* NSString+MD5Addition.m in Sources */,
 				F83D5E1C1AF4A59600E6646D /* ViewController.m in Sources */,
-				F83D5E6D1AF4A69400E6646D /* XZDeviceInfo.m in Sources */,
-				F83D5E6F1AF4A69400E6646D /* XZMusicForBaidu.m in Sources */,
-				F83D5E641AF4A69400E6646D /* NSArray+XZNetMethod.m in Sources */,
-				F83D5E711AF4A69400E6646D /* XZNetCommonParamsGenerator.m in Sources */,
+				F8B604571AF70B0500DE6745 /* NSString+MD5Addition.m in Sources */,
+				F8B604531AF70B0500DE6745 /* XZUDIDGenerator.m in Sources */,
 				F83D5E191AF4A59600E6646D /* AppDelegate.m in Sources */,
-				F83D5E661AF4A69400E6646D /* NSObject+XZNetMethod.m in Sources */,
-				F83D5E681AF4A69400E6646D /* NSString+XZNetMethod.m in Sources */,
-				F83D5E761AF4A69400E6646D /* XZRequestResponse.m in Sources */,
-				F83D5E6E1AF4A69400E6646D /* XZKeychain.m in Sources */,
-				F83D5E6B1AF4A69400E6646D /* XZApiManager.m in Sources */,
-				F83D5E771AF4A69400E6646D /* XZSignatureGenerator.m in Sources */,
-				F83D5E731AF4A69400E6646D /* XZNetServiceFactory.m in Sources */,
-				F83D5E6C1AF4A69400E6646D /* XZAppContext.m in Sources */,
-				F83D5E751AF4A69400E6646D /* XZRequestManager.m in Sources */,
-				F83D5E6A1AF4A69400E6646D /* UIDevice+XZIdentifierAddition.m in Sources */,
-				F83D5E741AF4A69400E6646D /* XZRequestGenerator.m in Sources */,
-				F83D5E701AF4A69400E6646D /* XZNetBridge.m in Sources */,
+				F8B604511AF70B0500DE6745 /* XZKeychain.m in Sources */,
+				F8B6045D1AF70B0500DE6745 /* XZApiManager.m in Sources */,
+				F8B604551AF70B0500DE6745 /* NSDictionary+XZNetMethod.m in Sources */,
 				F83D5E161AF4A59600E6646D /* main.m in Sources */,
+				F8B6045C1AF70B0500DE6745 /* XZNetDebug.m in Sources */,
+				F8B604541AF70B0500DE6745 /* NSArray+XZNetMethod.m in Sources */,
+				F8B6045E1AF70B0500DE6745 /* XZNetBridge.m in Sources */,
+				F8B604671AF70B5200DE6745 /* NSMutableString+XZNetMethod.m in Sources */,
+				F8B604521AF70B0500DE6745 /* XZNetCommonParamsGenerator.m in Sources */,
+				F8B604641AF70B0500DE6745 /* XZSignatureGenerator.m in Sources */,
+				F8B6045B1AF70B0500DE6745 /* XZAppContext.m in Sources */,
+				F8B604561AF70B0500DE6745 /* NSObject+XZNetMethod.m in Sources */,
+				F8B604611AF70B0500DE6745 /* XZRequestGenerator.m in Sources */,
+				F8B604631AF70B0500DE6745 /* XZRequestResponse.m in Sources */,
+				F8B604581AF70B0500DE6745 /* NSString+XZNetMethod.m in Sources */,
+				F8B604591AF70B0500DE6745 /* NSURLRequest+XZNetMethod.m in Sources */,
+				F8B6045A1AF70B0500DE6745 /* UIDevice+XZIdentifierAddition.m in Sources */,
+				F8B604501AF70B0500DE6745 /* XZDeviceInfo.m in Sources */,
+				F8B604601AF70B0500DE6745 /* XZNetServiceFactory.m in Sources */,
+				F8B6045F1AF70B0500DE6745 /* XZNetService.m in Sources */,
+				F8B604621AF70B0500DE6745 /* XZRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,7 +629,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = XZNetworking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -572,7 +642,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = XZNetworking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
