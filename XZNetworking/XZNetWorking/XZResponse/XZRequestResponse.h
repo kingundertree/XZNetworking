@@ -16,7 +16,6 @@ typedef NS_ENUM(NSInteger, XZNetWorkingResponseStatus){
 };
 
 typedef unsigned int XZRequestID;
-typedef unsigned int XZServiceType;
 
 @interface XZRequestResponse : NSObject
 @property (nonatomic, copy, readwrite) NSString *contentString;

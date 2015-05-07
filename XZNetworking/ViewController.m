@@ -23,7 +23,7 @@
 
     NSString *method = @"restserver/ting?from=ios&version=2.4.0&method=baidu.ting.artist.getSongList&format=json&order=2&offset=0";
     
-    [[XZRequestManager shareInstance] asyncGetWithServiceID:XZMusicGetServiceID methodName:method params:params target:self action:@selector(requestReturn:)];
+    [[XZRequestManager shareInstance] asyncGetWithServiceID:XZNetworkingGetServiceID methodName:method params:params target:self action:@selector(requestReturn:)];
 }
 
 - (void)requestReturn:(XZRequestResponse *)response{

@@ -24,7 +24,6 @@
 
 + (void)initServieId
 {
-    [XZNetBridge initServieId];
 }
 
 + (BOOL)isNetWorkReachable{
@@ -38,10 +37,10 @@
 
 
 #pragma mark --Normal request
-- (XZRequestID)asyncGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action
+- (XZRequestID)asyncGetWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action
 {
     NSInteger requestId = [[XZApiManager shareInstance] callGETWithParams:params
-                                                        serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                        serviceIdentifier:serviceID
                                                                methodName:methodName
                                                                   success:^(XZRequestResponse *response)
     {
@@ -58,9 +57,9 @@
 }
 
 
-- (XZRequestID)asyncPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
+- (XZRequestID)asyncPostWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
     NSInteger requestId = [[XZApiManager shareInstance] callPostWithParams:params
-                                                         serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                         serviceIdentifier:serviceID
                                                                 methodName:methodName
                                                                    success:^(XZRequestResponse *response)
                            {
@@ -76,24 +75,24 @@
     return (XZRequestID)requestId;
 }
 
-- (XZRequestResponse *)syncGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
+- (XZRequestResponse *)syncGetWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
     if ([self isRest:serviceID]) {
         
     }
     
-    return [[XZApiManager shareInstance] callGETWithParams:params serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName];
+    return [[XZApiManager shareInstance] callGETWithParams:params serviceIdentifier:serviceID methodName:methodName];
 }
-- (XZRequestResponse *)syncPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
+- (XZRequestResponse *)syncPostWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
     return [[XZApiManager shareInstance] callPostWithParams:params
-                                          serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                          serviceIdentifier:serviceID
                                                  methodName:methodName];
     
 }
 
 #pragma mark - REST
-- (XZRequestID)asyncRESTGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
+- (XZRequestID)asyncRESTGetWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
     NSInteger requestId = [[XZApiManager shareInstance] callRestfulGETWithParams:params
-                                                               serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName
+                                                               serviceIdentifier:serviceID methodName:methodName
                                                                          success:
                            ^(XZRequestResponse *response)
                            {
@@ -111,9 +110,9 @@
     return (XZRequestID)requestId;
 }
 
-- (XZRequestID)asyncRESTPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
+- (XZRequestID)asyncRESTPostWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params target:(id)target action:(SEL)action{
     NSInteger requestId = [[XZApiManager shareInstance] callRestfulPOSTWithParams:params
-                                                                serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID]
+                                                                serviceIdentifier:serviceID
                                                                        methodName:methodName
                                                                           success:^(XZRequestResponse *response)
                            {
@@ -130,12 +129,12 @@
 
     return (XZRequestID)requestId;
 }
-- (XZRequestResponse *)syncRESTPostWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
-    return [[XZApiManager shareInstance] callRestfulPOSTWithParams:params serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName];
+- (XZRequestResponse *)syncRESTPostWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
+    return [[XZApiManager shareInstance] callRestfulPOSTWithParams:params serviceIdentifier:serviceID methodName:methodName];
 }
 
-- (XZRequestResponse *)syncRESTGetWithServiceID:(XZServiceType)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
-    return [[XZApiManager shareInstance] callRestfulGETWithParams:params serviceIdentifier:[XZNetBridge bridgeServiceWithId:serviceID] methodName:methodName];
+- (XZRequestResponse *)syncRESTGetWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
+    return [[XZApiManager shareInstance] callRestfulGETWithParams:params serviceIdentifier:serviceID methodName:methodName];
 }
 
 #pragma mark - Cancel requests
@@ -149,11 +148,7 @@
     //    [apiRequestProxy cancelRequestsWithTarget:target];
 }
 
-- (BOOL)isRest:(XZServiceType)serviceID{
-    if (serviceID == XZMusicGetServiceID) {
-        return NO;
-    }
-    
+- (BOOL)isRest:(NSString *)serviceID{
     return YES;
 }
 

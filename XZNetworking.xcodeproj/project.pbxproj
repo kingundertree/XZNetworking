@@ -32,7 +32,6 @@
 		F8B6045B1AF70B0500DE6745 /* XZAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604381AF70B0500DE6745 /* XZAppContext.m */; };
 		F8B6045C1AF70B0500DE6745 /* XZNetDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6043B1AF70B0500DE6745 /* XZNetDebug.m */; };
 		F8B6045D1AF70B0500DE6745 /* XZApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6043D1AF70B0500DE6745 /* XZApiManager.m */; };
-		F8B6045E1AF70B0500DE6745 /* XZNetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604401AF70B0500DE6745 /* XZNetBridge.m */; };
 		F8B6045F1AF70B0500DE6745 /* XZNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604431AF70B0500DE6745 /* XZNetService.m */; };
 		F8B604601AF70B0500DE6745 /* XZNetServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604451AF70B0500DE6745 /* XZNetServiceFactory.m */; };
 		F8B604611AF70B0500DE6745 /* XZRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B604471AF70B0500DE6745 /* XZRequestGenerator.m */; };
@@ -59,6 +58,7 @@
 		1B3DC42755C0BB7AC587273F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C463987A967009CA7C01E8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6C5230D1CBCEA8C73F848235 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F83326251AFB4C9C00B402C8 /* XZNetWorkingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetWorkingHeader.h; sourceTree = "<group>"; };
 		F83D5E101AF4A59600E6646D /* XZNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83D5E141AF4A59600E6646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F83D5E151AF4A59600E6646D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,8 +104,6 @@
 		F8B6043B1AF70B0500DE6745 /* XZNetDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetDebug.m; sourceTree = "<group>"; };
 		F8B6043C1AF70B0500DE6745 /* XZApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZApiManager.h; sourceTree = "<group>"; };
 		F8B6043D1AF70B0500DE6745 /* XZApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZApiManager.m; sourceTree = "<group>"; };
-		F8B6043F1AF70B0500DE6745 /* XZNetBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetBridge.h; sourceTree = "<group>"; };
-		F8B604401AF70B0500DE6745 /* XZNetBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetBridge.m; sourceTree = "<group>"; };
 		F8B604421AF70B0500DE6745 /* XZNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetService.h; sourceTree = "<group>"; };
 		F8B604431AF70B0500DE6745 /* XZNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetService.m; sourceTree = "<group>"; };
 		F8B604441AF70B0500DE6745 /* XZNetServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetServiceFactory.h; sourceTree = "<group>"; };
@@ -235,11 +233,11 @@
 		F83D5E391AF4A69400E6646D /* XZNetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				F83326251AFB4C9C00B402C8 /* XZNetWorkingHeader.h */,
 				F8B6041E1AF70B0500DE6745 /* Assist */,
 				F8B604271AF70B0500DE6745 /* Category */,
 				F8B604361AF70B0500DE6745 /* Components */,
 				F8B604391AF70B0500DE6745 /* Debug */,
-				F8B6043E1AF70B0500DE6745 /* XZNetBridge */,
 				F8B604411AF70B0500DE6745 /* XZNetService */,
 				F8B6043C1AF70B0500DE6745 /* XZApiManager.h */,
 				F8B6043D1AF70B0500DE6745 /* XZApiManager.m */,
@@ -309,15 +307,6 @@
 				F8B6043B1AF70B0500DE6745 /* XZNetDebug.m */,
 			);
 			path = Debug;
-			sourceTree = "<group>";
-		};
-		F8B6043E1AF70B0500DE6745 /* XZNetBridge */ = {
-			isa = PBXGroup;
-			children = (
-				F8B6043F1AF70B0500DE6745 /* XZNetBridge.h */,
-				F8B604401AF70B0500DE6745 /* XZNetBridge.m */,
-			);
-			path = XZNetBridge;
 			sourceTree = "<group>";
 		};
 		F8B604411AF70B0500DE6745 /* XZNetService */ = {
@@ -504,7 +493,6 @@
 				F83D5E161AF4A59600E6646D /* main.m in Sources */,
 				F8B6045C1AF70B0500DE6745 /* XZNetDebug.m in Sources */,
 				F8B604541AF70B0500DE6745 /* NSArray+XZNetMethod.m in Sources */,
-				F8B6045E1AF70B0500DE6745 /* XZNetBridge.m in Sources */,
 				F8B604671AF70B5200DE6745 /* NSMutableString+XZNetMethod.m in Sources */,
 				F8B604521AF70B0500DE6745 /* XZNetCommonParamsGenerator.m in Sources */,
 				F8B604641AF70B0500DE6745 /* XZSignatureGenerator.m in Sources */,
