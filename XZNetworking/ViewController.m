@@ -19,14 +19,18 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    NSDictionary *params = @{@"tinguid":@"20", @"limits":@"7994"};
-
-    NSString *method = @"restserver/ting?from=ios&version=2.4.0&method=baidu.ting.artist.getSongList&format=json&order=2&offset=0";
-    
-    [[XZRequestManager shareInstance] asyncGetWithServiceID:XZNetworkingGetServiceID methodName:method params:params target:self action:@selector(requestReturn:)];
+    [self getRequestMethodTest];
 }
 
-- (void)requestReturn:(XZRequestResponse *)response{
+
+- (void)getRequestMethodTest {
+    NSDictionary *params = @{@"songIds":@"15702101"};
+    NSString *method = @"data/music/links";
+    
+    [[XZRequestManager shareInstance] asyncGetWithServiceID:XZNetworkingGetServiceID methodName:method params:params target:self action:@selector(getRequestReturn:)];
+}
+
+- (void)getRequestReturn:(XZRequestResponse *)response{
     NSLog(@"response---->>%@",response.content);
 }
 

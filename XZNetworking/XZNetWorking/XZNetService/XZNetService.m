@@ -11,15 +11,6 @@
 
 @implementation XZNetService
 
-//+ (id)shareInstance{
-//    static dispatch_once_t pred;
-//    static XZNetService *sharedInstance = nil;
-//    dispatch_once(&pred, ^{
-//        sharedInstance = [[XZNetService alloc] init];
-//    });
-//    return sharedInstance;
-//}
-
 - (instancetype)init
 {
     self = [super init];

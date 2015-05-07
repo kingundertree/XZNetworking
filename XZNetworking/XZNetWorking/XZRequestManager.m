@@ -77,12 +77,16 @@
 
 - (XZRequestResponse *)syncGetWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
     if ([self isRest:serviceID]) {
-        
+        return [self syncRESTGetWithServiceID:serviceID methodName:methodName params:params];
     }
     
     return [[XZApiManager shareInstance] callGETWithParams:params serviceIdentifier:serviceID methodName:methodName];
 }
 - (XZRequestResponse *)syncPostWithServiceID:(NSString *)serviceID methodName:(NSString *)methodName params:(NSDictionary *)params{
+    if ([self isRest:serviceID]) {
+        return [self syncRESTGetWithServiceID:serviceID methodName:methodName params:params];
+    }
+
     return [[XZApiManager shareInstance] callPostWithParams:params
                                           serviceIdentifier:serviceID
                                                  methodName:methodName];
@@ -145,11 +149,15 @@
 
 - (void)cancelRequestsWithTarget:(id)target
 {
-    //    [apiRequestProxy cancelRequestsWithTarget:target];
+    
 }
 
 - (BOOL)isRest:(NSString *)serviceID{
-    return YES;
+    if ([serviceID isEqualToString:XZNetworkingRestfulGetServiceID] || [serviceID isEqualToString:XZNetworkingRestfulPostServiceID]) {
+        return YES;
+    }
+    
+    return NO;
 }
 
 

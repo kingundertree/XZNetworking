@@ -18,7 +18,7 @@
 
 - (NSString *)onlineApiBaseUrl
 {
-    return @"http://tingapi.ting.baidu.com/v1";
+    return @"http://music.baidu.com";
 }
 
 - (NSString *)onlineApiVersion

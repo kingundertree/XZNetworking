@@ -82,10 +82,10 @@
                                                                          request:request
                                                                     responseData:data
                                                                            error:error];
-//    [AIFApiDebugger logDebugInfoWithResponse:(NSHTTPURLResponse *)response
-//                               resposeString:[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]
-//                                     request:request
-//                                       error:error];
+    [XZNetDebug logDebugInfoWithResponse:(NSHTTPURLResponse *)response
+                               resposeString:[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]
+                                     request:request
+                                       error:error];
     return xzResponse;
 }
 
