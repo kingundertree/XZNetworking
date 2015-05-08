@@ -8,6 +8,6 @@
 
 #import "XZNetService.h"
 
-@interface XZMusicForBaidu : XZNetService <XZNetServiceProtocal>
+@interface XZMusicForBaiduGet : XZNetService <XZNetServiceProtocal>
 
 @end

@@ -1,15 +1,15 @@
 //
-//  XZMusicForBaidu.m
-//  XZMusic
+//  XZMusicForBroker.m
+//  XZNetworking
 //
-//  Created by xiazer on 14/10/19.
-//  Copyright (c) 2014年 xiazer. All rights reserved.
+//  Created by xiazer on 15/5/8.
+//  Copyright (c) 2015年 xiazer. All rights reserved.
 //
 
-#import "XZMusicForBaidu.h"
+#import "XZMusicForBroker.h"
 #import "XZAppContext.h"
 
-@implementation XZMusicForBaidu
+@implementation XZMusicForBroker
 
 - (BOOL)isOnline
 {
@@ -18,22 +18,22 @@
 
 - (NSString *)onlineApiBaseUrl
 {
-    return @"http://music.baidu.com";
+    return @"http://api.anjuke.com/mobile-ajk-broker";
 }
 
 - (NSString *)onlineApiVersion
 {
-    return @"";
+    return @"/1.0";
 }
 
 - (NSString *)onlinePrivateKey
 {
-    return @"";
+    return @"4520776bd0c3bfd5";
 }
 
 - (NSString *)onlinePublicKey
 {
-    return @"";;
+    return @"16ef94c3684a3b93626e5694affd167e";
 }
 
 - (NSString *)offlineApiBaseUrl
@@ -55,5 +55,6 @@
 {
     return self.offlinePublicKey;
 }
+
 
 @end

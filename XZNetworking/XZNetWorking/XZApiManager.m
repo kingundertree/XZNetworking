@@ -112,7 +112,7 @@
         return 0;
     }
     
-    NSURLRequest *request = [[XZRequestGenerator sharedInstance] generateGETRequestWithServiceIdentifier:servieIdentifier requestParams:params methodName:methodName];
+    NSURLRequest *request = [[XZRequestGenerator sharedInstance] generatePostRequestWithServiceIdentifier:servieIdentifier requestParams:params methodName:methodName];
     
     NSNumber *requestId = [self callApiWithRequest:request success:success fail:fail];
     return [requestId integerValue];    

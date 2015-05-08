@@ -8,8 +8,9 @@
 
 #import "XZNetServiceFactory.h"
 #import "XZNetWorkingHeader.h"
-#import "XZMusicForBaidu.h"
-
+#import "XZMusicForBaiduGet.h"
+#import "XZMusicForBrokerRest.h"
+#import "XZMusicForBrokerPost.h"
 
 @interface XZNetServiceFactory ()
 @property(nonatomic, strong) NSMutableDictionary *serviceStorage;
@@ -44,8 +45,15 @@
 
 - (XZNetService<XZNetServiceProtocal> *)newServiceWithIdentify:(NSString *)identify{
     if ([identify isEqualToString:XZNetworkingGetServiceID]) {
-        return [[XZMusicForBaidu alloc] init];
+        return [[XZMusicForBaiduGet alloc] init];
     }
+    if ([identify isEqualToString:XZNetworkingRestfulGetServiceID] || [identify isEqualToString:XZNetworkingRestfulPostServiceID]) {
+        return [[XZMusicForBrokerRest alloc] init];
+    }
+    if ([identify isEqualToString:XZNetworkingPostServiceID]) {
+        return [[XZMusicForBrokerPost alloc] init];
+    }
+    
     return nil;
 }
 
