@@ -45,11 +45,11 @@
                                                                   success:^(XZRequestResponse *response)
     {
         if ([target respondsToSelector:action]) {
-            [target performSelector:action withObject:[response returnNetworkResponse]];
+            [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
         }
     } fail:^(XZRequestResponse *response) {
         if ([target respondsToSelector:action]) {
-            [target performSelector:action withObject:[response returnNetworkResponse]];
+            [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
         }
     }];
     
@@ -64,11 +64,11 @@
                                                                    success:^(XZRequestResponse *response)
                            {
                                if ([target respondsToSelector:action]) {
-                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                                   [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
                                }
                            } fail:^(XZRequestResponse *response) {
                                if ([target respondsToSelector:action]) {
-                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                                   [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
                                }
                            }];
     
@@ -101,12 +101,12 @@
                            ^(XZRequestResponse *response)
                            {
                                if ([target respondsToSelector:action]) {
-                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                                   [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
                                }
                            }fail:^(XZRequestResponse *response)
                            {
                                if ([target respondsToSelector:action]) {
-                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                                   [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
                                }
                            }];
 
@@ -121,13 +121,13 @@
                                                                           success:^(XZRequestResponse *response)
                            {
                                if ([target respondsToSelector:action]) {
-                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                                   [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
                                }
                            }
                                                                              fail:^(XZRequestResponse *response)
                            {
                                if ([target respondsToSelector:action]) {
-                                   [target performSelector:action withObject:[response returnNetworkResponse]];
+                                   [target performSelector:action withObject:[response returnNetworkResponse] afterDelay:0.0];
                                }
                            }];
 
