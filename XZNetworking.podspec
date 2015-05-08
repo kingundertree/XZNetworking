@@ -31,12 +31,8 @@ Pod::Spec.new do |s|
       ss.source_files = 'XZNetworking/XZNetwork/Debug/*.{h,m}'
   end
 
-  s.subspec 'ServiceConfig' do |ss|
-      ss.source_files = 'XZNetworking/XZNetwork/ServiceConfig/*.{h,m}'
-  end
-
   s.subspec 'XZNetService' do |ss|
-      ss.source_files = 'XZNetworking/XZNetwork/Debug/*.{h,m}'
+      ss.source_files = 'XZNetworking/XZNetwork/XZNetService/*.{h,m}'
 
       ss.subspec 'ServiceConfig' do |sss|
           sss.source_files = 'XZNetworking/XZNetwork/XZNetService/ServiceConfig/*.{h,m}'
