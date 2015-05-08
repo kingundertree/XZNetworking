@@ -21,10 +21,12 @@ Pod::Spec.new do |s|
 
   s.subspec 'Category' do |ss|
       ss.source_files = 'XZNetworking/XZNetwork/Category/*.{h,m}'
+      ss.frameworks = 'Security'
   end
 
   s.subspec 'Components' do |ss|
       ss.source_files = 'XZNetworking/XZNetwork/Components/*.{h,m}'
+      ss.frameworks = 'SystemConfiguration'
   end
 
   s.subspec 'Debug' do |ss|
