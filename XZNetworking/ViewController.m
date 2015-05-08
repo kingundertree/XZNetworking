@@ -86,6 +86,7 @@
     
     [[XZRequestManager shareInstance] asyncRESTGetWithServiceID:XZNetworkingRestfulGetServiceID methodName:method params:params target:self action:@selector(restfulGetRequestReturn:)];
 }
+
 - (void)restfulGetRequestReturn:(XZRequestResponse *)response {
     NSLog(@"response---->>%@",response.content);
 }
