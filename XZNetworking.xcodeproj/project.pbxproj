@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F83D5E161AF4A59600E6646D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E151AF4A59600E6646D /* main.m */; };
-		F83D5E191AF4A59600E6646D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E181AF4A59600E6646D /* AppDelegate.m */; };
-		F83D5E1C1AF4A59600E6646D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D5E1B1AF4A59600E6646D /* ViewController.m */; };
+		F80550711B00B93100A8DE49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F80550701B00B93100A8DE49 /* main.m */; };
+		F80550781B00B93A00A8DE49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80550741B00B93A00A8DE49 /* AppDelegate.m */; };
+		F805507A1B00B93A00A8DE49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80550771B00B93A00A8DE49 /* ViewController.m */; };
 		F83D5E1F1AF4A59600E6646D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83D5E1D1AF4A59600E6646D /* Main.storyboard */; };
 		F83D5E211AF4A59600E6646D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83D5E201AF4A59600E6646D /* Images.xcassets */; };
 		F83D5E241AF4A59600E6646D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83D5E221AF4A59600E6646D /* LaunchScreen.xib */; };
@@ -64,13 +64,13 @@
 		1B3DC42755C0BB7AC587273F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C463987A967009CA7C01E8E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6C5230D1CBCEA8C73F848235 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F80550701B00B93100A8DE49 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = View/main.m; sourceTree = "<group>"; };
+		F80550731B00B93A00A8DE49 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F80550741B00B93A00A8DE49 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F80550761B00B93A00A8DE49 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F80550771B00B93A00A8DE49 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F83D5E101AF4A59600E6646D /* XZNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F83D5E141AF4A59600E6646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F83D5E151AF4A59600E6646D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F83D5E171AF4A59600E6646D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F83D5E181AF4A59600E6646D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F83D5E1A1AF4A59600E6646D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F83D5E1B1AF4A59600E6646D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F83D5E1E1AF4A59600E6646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F83D5E201AF4A59600E6646D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F83D5E231AF4A59600E6646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -184,6 +184,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F80550721B00B93A00A8DE49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F80550731B00B93A00A8DE49 /* AppDelegate.h */,
+				F80550741B00B93A00A8DE49 /* AppDelegate.m */,
+				F80550761B00B93A00A8DE49 /* ViewController.h */,
+				F80550771B00B93A00A8DE49 /* ViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F83D5E071AF4A59600E6646D = {
 			isa = PBXGroup;
 			children = (
@@ -207,11 +218,8 @@
 		F83D5E121AF4A59600E6646D /* XZNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				F80550721B00B93A00A8DE49 /* View */,
 				F88C13DC1B00B64F0050DCD4 /* XZNetworking */,
-				F83D5E171AF4A59600E6646D /* AppDelegate.h */,
-				F83D5E181AF4A59600E6646D /* AppDelegate.m */,
-				F83D5E1A1AF4A59600E6646D /* ViewController.h */,
-				F83D5E1B1AF4A59600E6646D /* ViewController.m */,
 				F83D5E1D1AF4A59600E6646D /* Main.storyboard */,
 				F83D5E201AF4A59600E6646D /* Images.xcassets */,
 				F83D5E221AF4A59600E6646D /* LaunchScreen.xib */,
@@ -224,8 +232,8 @@
 		F83D5E131AF4A59600E6646D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F80550701B00B93100A8DE49 /* main.m */,
 				F83D5E141AF4A59600E6646D /* Info.plist */,
-				F83D5E151AF4A59600E6646D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -523,16 +531,15 @@
 			files = (
 				F88C14281B00B64F0050DCD4 /* NSObject+XZNetMethod.m in Sources */,
 				F88C14381B00B64F0050DCD4 /* XZNetService.m in Sources */,
-				F83D5E1C1AF4A59600E6646D /* ViewController.m in Sources */,
 				F88C14301B00B64F0050DCD4 /* XZMusicForBaidu.m in Sources */,
 				F88C14271B00B64F0050DCD4 /* NSMutableString+XZNetMethod.m in Sources */,
 				F88C142C1B00B64F0050DCD4 /* UIDevice+XZIdentifierAddition.m in Sources */,
 				F88C142A1B00B64F0050DCD4 /* NSString+XZNetMethod.m in Sources */,
 				F88C143C1B00B64F0050DCD4 /* XZRequestResponse.m in Sources */,
 				F88C14241B00B64F0050DCD4 /* XZUDIDGenerator.m in Sources */,
-				F83D5E191AF4A59600E6646D /* AppDelegate.m in Sources */,
 				F88C14371B00B64F0050DCD4 /* XZMusicForBrokerRest.m in Sources */,
 				F88C14361B00B64F0050DCD4 /* XZMusicForBrokerPost.m in Sources */,
+				F80550711B00B93100A8DE49 /* main.m in Sources */,
 				F88C14331B00B64F0050DCD4 /* XZApiManager.m in Sources */,
 				F88C14341B00B64F0050DCD4 /* XZMusicForBaiduGet.m in Sources */,
 				F88C143B1B00B64F0050DCD4 /* XZRequestManager.m in Sources */,
@@ -542,12 +549,13 @@
 				F88C14311B00B64F0050DCD4 /* XZMusicForBaidu2.m in Sources */,
 				F88C142D1B00B64F0050DCD4 /* XZRequestResponse+XZNetMethod.m in Sources */,
 				F88C143A1B00B64F0050DCD4 /* XZRequestGenerator.m in Sources */,
-				F83D5E161AF4A59600E6646D /* main.m in Sources */,
 				F88C142F1B00B64F0050DCD4 /* XZNetDebug.m in Sources */,
 				F88C142E1B00B64F0050DCD4 /* XZAppContext.m in Sources */,
 				F88C142B1B00B64F0050DCD4 /* NSURLRequest+XZNetMethod.m in Sources */,
+				F80550781B00B93A00A8DE49 /* AppDelegate.m in Sources */,
 				F88C14251B00B64F0050DCD4 /* NSArray+XZNetMethod.m in Sources */,
 				F88C14231B00B64F0050DCD4 /* XZNetCommonParamsGenerator.m in Sources */,
+				F805507A1B00B93A00A8DE49 /* ViewController.m in Sources */,
 				F88C14291B00B64F0050DCD4 /* NSString+MD5Addition.m in Sources */,
 				F88C143D1B00B64F0050DCD4 /* XZSignatureGenerator.m in Sources */,
 				F88C14211B00B64F0050DCD4 /* XZDeviceInfo.m in Sources */,
