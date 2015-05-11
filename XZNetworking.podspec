@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = ""
 
   s.description  = ""
-
+  s.platform     = :ios, '6.0'
   s.homepage     = "https://github.com/kingundertree/XZNetworking"
 
   s.license      = "MIT (example)"
