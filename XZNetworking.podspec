@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "XZNetworking"
+  s.name         = "XZNetwork"
   s.version      = "1.0"
   s.summary      = ""
 
