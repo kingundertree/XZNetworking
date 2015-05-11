@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "徐山" => "kingundertree@163.com" }
   s.source       = { :git => "https://github.com/kingundertree/XZNetworking.git" }
 
-  s.source_files  = 'XZNetworking', 'XZNetworking/XZNetwork/*.{h,m}'
+  s.source_files  = 'XZNetwork', 'XZNetworking/XZNetwork/*.{h,m}'
 
 
   s.subspec 'Assist' do |ss|
