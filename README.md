@@ -6,6 +6,10 @@
 
 	pod 'XZNetworking', :git => 'https://github.com/kingundertree/XZNetworking'
 
+###Demo
+
+	https://github.com/kingundertree/XZNetworkingDemo
+
 ###功能
 	1. 支持get请求，包括同步/异步
 	2. 支持post请求，包括同步/异步
