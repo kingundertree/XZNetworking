@@ -18,35 +18,35 @@
 		F83D5EBC1AF4A79300E6646D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D5EBB1AF4A79300E6646D /* UIKit.framework */; };
 		F83D5EBE1AF4A7A200E6646D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D5EBD1AF4A7A200E6646D /* CoreGraphics.framework */; };
 		F83D5EC01AF4A7AD00E6646D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D5EBF1AF4A7AD00E6646D /* Foundation.framework */; };
-		F84B63BD1AFCA02B008FE163 /* XZDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B637B1AFCA02B008FE163 /* XZDeviceInfo.m */; };
-		F84B63BE1AFCA02B008FE163 /* XZKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B637D1AFCA02B008FE163 /* XZKeychain.m */; };
-		F84B63BF1AFCA02B008FE163 /* XZNetCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B637F1AFCA02B008FE163 /* XZNetCommonParamsGenerator.m */; };
-		F84B63C01AFCA02B008FE163 /* XZUDIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63811AFCA02B008FE163 /* XZUDIDGenerator.m */; };
-		F84B63C11AFCA02B008FE163 /* NSArray+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63841AFCA02B008FE163 /* NSArray+XZNetMethod.m */; };
-		F84B63C21AFCA02B008FE163 /* NSDictionary+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63861AFCA02B008FE163 /* NSDictionary+XZNetMethod.m */; };
-		F84B63C31AFCA02B008FE163 /* NSMutableString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63881AFCA02B008FE163 /* NSMutableString+XZNetMethod.m */; };
-		F84B63C41AFCA02B008FE163 /* NSObject+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B638A1AFCA02B008FE163 /* NSObject+XZNetMethod.m */; };
-		F84B63C51AFCA02B008FE163 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B638C1AFCA02B008FE163 /* NSString+MD5Addition.m */; };
-		F84B63C61AFCA02B008FE163 /* NSString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B638E1AFCA02B008FE163 /* NSString+XZNetMethod.m */; };
-		F84B63C71AFCA02B008FE163 /* NSURLRequest+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63901AFCA02B008FE163 /* NSURLRequest+XZNetMethod.m */; };
-		F84B63C81AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63921AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.m */; };
-		F84B63C91AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63941AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.m */; };
-		F84B63CA1AFCA02B008FE163 /* XZAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63971AFCA02B008FE163 /* XZAppContext.m */; };
-		F84B63CB1AFCA02B008FE163 /* XZNetDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B639A1AFCA02B008FE163 /* XZNetDebug.m */; };
-		F84B63CC1AFCA02B008FE163 /* XZMusicForBaidu.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B639D1AFCA02B008FE163 /* XZMusicForBaidu.m */; };
-		F84B63CD1AFCA02B008FE163 /* XZMusicForBaidu2.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B639F1AFCA02B008FE163 /* XZMusicForBaidu2.m */; };
-		F84B63CE1AFCA02B008FE163 /* XZMusicForWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63A11AFCA02B008FE163 /* XZMusicForWeibo.m */; };
-		F84B63CF1AFCA02B008FE163 /* XZApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63A31AFCA02B008FE163 /* XZApiManager.m */; };
-		F84B63D01AFCA02B008FE163 /* XZMusicForBaiduGet.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63A71AFCA02B008FE163 /* XZMusicForBaiduGet.m */; };
-		F84B63D11AFCA02B008FE163 /* XZMusicForBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63A91AFCA02B008FE163 /* XZMusicForBroker.m */; };
-		F84B63D21AFCA02B008FE163 /* XZMusicForBrokerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63AB1AFCA02B008FE163 /* XZMusicForBrokerPost.m */; };
-		F84B63D31AFCA02B008FE163 /* XZMusicForBrokerRest.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63AD1AFCA02B008FE163 /* XZMusicForBrokerRest.m */; };
-		F84B63D41AFCA02B008FE163 /* XZNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63AF1AFCA02B008FE163 /* XZNetService.m */; };
-		F84B63D51AFCA02B008FE163 /* XZNetServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63B11AFCA02B008FE163 /* XZNetServiceFactory.m */; };
-		F84B63D61AFCA02B008FE163 /* XZRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63B41AFCA02B008FE163 /* XZRequestGenerator.m */; };
-		F84B63D71AFCA02B008FE163 /* XZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63B61AFCA02B008FE163 /* XZRequestManager.m */; };
-		F84B63D81AFCA02B008FE163 /* XZRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63B91AFCA02B008FE163 /* XZRequestResponse.m */; };
-		F84B63D91AFCA02B008FE163 /* XZSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F84B63BC1AFCA02B008FE163 /* XZSignatureGenerator.m */; };
+		F8C9CE291B00908F00A043B3 /* XZDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDE71B00908E00A043B3 /* XZDeviceInfo.m */; };
+		F8C9CE2A1B00908F00A043B3 /* XZKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDE91B00908E00A043B3 /* XZKeychain.m */; };
+		F8C9CE2B1B00908F00A043B3 /* XZNetCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDEB1B00908E00A043B3 /* XZNetCommonParamsGenerator.m */; };
+		F8C9CE2C1B00908F00A043B3 /* XZUDIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDED1B00908E00A043B3 /* XZUDIDGenerator.m */; };
+		F8C9CE2D1B00908F00A043B3 /* NSArray+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDF01B00908E00A043B3 /* NSArray+XZNetMethod.m */; };
+		F8C9CE2E1B00908F00A043B3 /* NSDictionary+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDF21B00908E00A043B3 /* NSDictionary+XZNetMethod.m */; };
+		F8C9CE2F1B00908F00A043B3 /* NSMutableString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDF41B00908E00A043B3 /* NSMutableString+XZNetMethod.m */; };
+		F8C9CE301B00908F00A043B3 /* NSObject+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDF61B00908E00A043B3 /* NSObject+XZNetMethod.m */; };
+		F8C9CE311B00908F00A043B3 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDF81B00908E00A043B3 /* NSString+MD5Addition.m */; };
+		F8C9CE321B00908F00A043B3 /* NSString+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDFA1B00908E00A043B3 /* NSString+XZNetMethod.m */; };
+		F8C9CE331B00908F00A043B3 /* NSURLRequest+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDFC1B00908E00A043B3 /* NSURLRequest+XZNetMethod.m */; };
+		F8C9CE341B00908F00A043B3 /* UIDevice+XZIdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CDFE1B00908E00A043B3 /* UIDevice+XZIdentifierAddition.m */; };
+		F8C9CE351B00908F00A043B3 /* XZRequestResponse+XZNetMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE001B00908E00A043B3 /* XZRequestResponse+XZNetMethod.m */; };
+		F8C9CE361B00908F00A043B3 /* XZAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE031B00908E00A043B3 /* XZAppContext.m */; };
+		F8C9CE371B00908F00A043B3 /* XZNetDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE061B00908E00A043B3 /* XZNetDebug.m */; };
+		F8C9CE381B00908F00A043B3 /* XZMusicForBaidu.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE091B00908E00A043B3 /* XZMusicForBaidu.m */; };
+		F8C9CE391B00908F00A043B3 /* XZMusicForBaidu2.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE0B1B00908E00A043B3 /* XZMusicForBaidu2.m */; };
+		F8C9CE3A1B00908F00A043B3 /* XZMusicForWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE0D1B00908E00A043B3 /* XZMusicForWeibo.m */; };
+		F8C9CE3B1B00908F00A043B3 /* XZApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE0F1B00908E00A043B3 /* XZApiManager.m */; };
+		F8C9CE3C1B00908F00A043B3 /* XZMusicForBaiduGet.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE131B00908E00A043B3 /* XZMusicForBaiduGet.m */; };
+		F8C9CE3D1B00908F00A043B3 /* XZMusicForBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE151B00908E00A043B3 /* XZMusicForBroker.m */; };
+		F8C9CE3E1B00908F00A043B3 /* XZMusicForBrokerPost.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE171B00908E00A043B3 /* XZMusicForBrokerPost.m */; };
+		F8C9CE3F1B00908F00A043B3 /* XZMusicForBrokerRest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE191B00908E00A043B3 /* XZMusicForBrokerRest.m */; };
+		F8C9CE401B00908F00A043B3 /* XZNetService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE1B1B00908E00A043B3 /* XZNetService.m */; };
+		F8C9CE411B00908F00A043B3 /* XZNetServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE1D1B00908E00A043B3 /* XZNetServiceFactory.m */; };
+		F8C9CE421B00908F00A043B3 /* XZRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE201B00908E00A043B3 /* XZRequestGenerator.m */; };
+		F8C9CE431B00908F00A043B3 /* XZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE221B00908E00A043B3 /* XZRequestManager.m */; };
+		F8C9CE441B00908F00A043B3 /* XZRequestResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE251B00908F00A043B3 /* XZRequestResponse.m */; };
+		F8C9CE451B00908F00A043B3 /* XZSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C9CE281B00908F00A043B3 /* XZSignatureGenerator.m */; };
 		FC199820A2F9E95C6B528FB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3DC42755C0BB7AC587273F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,65 +81,65 @@
 		F83D5EBB1AF4A79300E6646D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F83D5EBD1AF4A7A200E6646D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F83D5EBF1AF4A7AD00E6646D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F84B637A1AFCA02B008FE163 /* XZDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDeviceInfo.h; sourceTree = "<group>"; };
-		F84B637B1AFCA02B008FE163 /* XZDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDeviceInfo.m; sourceTree = "<group>"; };
-		F84B637C1AFCA02B008FE163 /* XZKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKeychain.h; sourceTree = "<group>"; };
-		F84B637D1AFCA02B008FE163 /* XZKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKeychain.m; sourceTree = "<group>"; };
-		F84B637E1AFCA02B008FE163 /* XZNetCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetCommonParamsGenerator.h; sourceTree = "<group>"; };
-		F84B637F1AFCA02B008FE163 /* XZNetCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetCommonParamsGenerator.m; sourceTree = "<group>"; };
-		F84B63801AFCA02B008FE163 /* XZUDIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZUDIDGenerator.h; sourceTree = "<group>"; };
-		F84B63811AFCA02B008FE163 /* XZUDIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZUDIDGenerator.m; sourceTree = "<group>"; };
-		F84B63831AFCA02B008FE163 /* NSArray+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B63841AFCA02B008FE163 /* NSArray+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B63851AFCA02B008FE163 /* NSDictionary+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B63861AFCA02B008FE163 /* NSDictionary+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B63871AFCA02B008FE163 /* NSMutableString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B63881AFCA02B008FE163 /* NSMutableString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B63891AFCA02B008FE163 /* NSObject+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B638A1AFCA02B008FE163 /* NSObject+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B638B1AFCA02B008FE163 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		F84B638C1AFCA02B008FE163 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		F84B638D1AFCA02B008FE163 /* NSString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B638E1AFCA02B008FE163 /* NSString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B638F1AFCA02B008FE163 /* NSURLRequest+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B63901AFCA02B008FE163 /* NSURLRequest+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B63911AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XZIdentifierAddition.h"; sourceTree = "<group>"; };
-		F84B63921AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZIdentifierAddition.m"; sourceTree = "<group>"; };
-		F84B63931AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XZRequestResponse+XZNetMethod.h"; sourceTree = "<group>"; };
-		F84B63941AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XZRequestResponse+XZNetMethod.m"; sourceTree = "<group>"; };
-		F84B63961AFCA02B008FE163 /* XZAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZAppContext.h; sourceTree = "<group>"; };
-		F84B63971AFCA02B008FE163 /* XZAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZAppContext.m; sourceTree = "<group>"; };
-		F84B63991AFCA02B008FE163 /* XZNetDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetDebug.h; sourceTree = "<group>"; };
-		F84B639A1AFCA02B008FE163 /* XZNetDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetDebug.m; sourceTree = "<group>"; };
-		F84B639C1AFCA02B008FE163 /* XZMusicForBaidu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaidu.h; sourceTree = "<group>"; };
-		F84B639D1AFCA02B008FE163 /* XZMusicForBaidu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaidu.m; sourceTree = "<group>"; };
-		F84B639E1AFCA02B008FE163 /* XZMusicForBaidu2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaidu2.h; sourceTree = "<group>"; };
-		F84B639F1AFCA02B008FE163 /* XZMusicForBaidu2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaidu2.m; sourceTree = "<group>"; };
-		F84B63A01AFCA02B008FE163 /* XZMusicForWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForWeibo.h; sourceTree = "<group>"; };
-		F84B63A11AFCA02B008FE163 /* XZMusicForWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForWeibo.m; sourceTree = "<group>"; };
-		F84B63A21AFCA02B008FE163 /* XZApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZApiManager.h; sourceTree = "<group>"; };
-		F84B63A31AFCA02B008FE163 /* XZApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZApiManager.m; sourceTree = "<group>"; };
-		F84B63A61AFCA02B008FE163 /* XZMusicForBaiduGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaiduGet.h; sourceTree = "<group>"; };
-		F84B63A71AFCA02B008FE163 /* XZMusicForBaiduGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaiduGet.m; sourceTree = "<group>"; };
-		F84B63A81AFCA02B008FE163 /* XZMusicForBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBroker.h; sourceTree = "<group>"; };
-		F84B63A91AFCA02B008FE163 /* XZMusicForBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBroker.m; sourceTree = "<group>"; };
-		F84B63AA1AFCA02B008FE163 /* XZMusicForBrokerPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBrokerPost.h; sourceTree = "<group>"; };
-		F84B63AB1AFCA02B008FE163 /* XZMusicForBrokerPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBrokerPost.m; sourceTree = "<group>"; };
-		F84B63AC1AFCA02B008FE163 /* XZMusicForBrokerRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBrokerRest.h; sourceTree = "<group>"; };
-		F84B63AD1AFCA02B008FE163 /* XZMusicForBrokerRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBrokerRest.m; sourceTree = "<group>"; };
-		F84B63AE1AFCA02B008FE163 /* XZNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetService.h; sourceTree = "<group>"; };
-		F84B63AF1AFCA02B008FE163 /* XZNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetService.m; sourceTree = "<group>"; };
-		F84B63B01AFCA02B008FE163 /* XZNetServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetServiceFactory.h; sourceTree = "<group>"; };
-		F84B63B11AFCA02B008FE163 /* XZNetServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetServiceFactory.m; sourceTree = "<group>"; };
-		F84B63B21AFCA02B008FE163 /* XZNetWorkingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetWorkingHeader.h; sourceTree = "<group>"; };
-		F84B63B31AFCA02B008FE163 /* XZRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestGenerator.h; sourceTree = "<group>"; };
-		F84B63B41AFCA02B008FE163 /* XZRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestGenerator.m; sourceTree = "<group>"; };
-		F84B63B51AFCA02B008FE163 /* XZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestManager.h; sourceTree = "<group>"; };
-		F84B63B61AFCA02B008FE163 /* XZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestManager.m; sourceTree = "<group>"; };
-		F84B63B81AFCA02B008FE163 /* XZRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestResponse.h; sourceTree = "<group>"; };
-		F84B63B91AFCA02B008FE163 /* XZRequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestResponse.m; sourceTree = "<group>"; };
-		F84B63BB1AFCA02B008FE163 /* XZSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZSignatureGenerator.h; sourceTree = "<group>"; };
-		F84B63BC1AFCA02B008FE163 /* XZSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZSignatureGenerator.m; sourceTree = "<group>"; };
+		F8C9CDE61B00908E00A043B3 /* XZDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZDeviceInfo.h; sourceTree = "<group>"; };
+		F8C9CDE71B00908E00A043B3 /* XZDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZDeviceInfo.m; sourceTree = "<group>"; };
+		F8C9CDE81B00908E00A043B3 /* XZKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKeychain.h; sourceTree = "<group>"; };
+		F8C9CDE91B00908E00A043B3 /* XZKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKeychain.m; sourceTree = "<group>"; };
+		F8C9CDEA1B00908E00A043B3 /* XZNetCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetCommonParamsGenerator.h; sourceTree = "<group>"; };
+		F8C9CDEB1B00908E00A043B3 /* XZNetCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetCommonParamsGenerator.m; sourceTree = "<group>"; };
+		F8C9CDEC1B00908E00A043B3 /* XZUDIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZUDIDGenerator.h; sourceTree = "<group>"; };
+		F8C9CDED1B00908E00A043B3 /* XZUDIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZUDIDGenerator.m; sourceTree = "<group>"; };
+		F8C9CDEF1B00908E00A043B3 /* NSArray+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CDF01B00908E00A043B3 /* NSArray+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CDF11B00908E00A043B3 /* NSDictionary+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CDF21B00908E00A043B3 /* NSDictionary+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CDF31B00908E00A043B3 /* NSMutableString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CDF41B00908E00A043B3 /* NSMutableString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CDF51B00908E00A043B3 /* NSObject+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CDF61B00908E00A043B3 /* NSObject+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CDF71B00908E00A043B3 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		F8C9CDF81B00908E00A043B3 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		F8C9CDF91B00908E00A043B3 /* NSString+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CDFA1B00908E00A043B3 /* NSString+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CDFB1B00908E00A043B3 /* NSURLRequest+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CDFC1B00908E00A043B3 /* NSURLRequest+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CDFD1B00908E00A043B3 /* UIDevice+XZIdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XZIdentifierAddition.h"; sourceTree = "<group>"; };
+		F8C9CDFE1B00908E00A043B3 /* UIDevice+XZIdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XZIdentifierAddition.m"; sourceTree = "<group>"; };
+		F8C9CDFF1B00908E00A043B3 /* XZRequestResponse+XZNetMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XZRequestResponse+XZNetMethod.h"; sourceTree = "<group>"; };
+		F8C9CE001B00908E00A043B3 /* XZRequestResponse+XZNetMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XZRequestResponse+XZNetMethod.m"; sourceTree = "<group>"; };
+		F8C9CE021B00908E00A043B3 /* XZAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZAppContext.h; sourceTree = "<group>"; };
+		F8C9CE031B00908E00A043B3 /* XZAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZAppContext.m; sourceTree = "<group>"; };
+		F8C9CE051B00908E00A043B3 /* XZNetDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetDebug.h; sourceTree = "<group>"; };
+		F8C9CE061B00908E00A043B3 /* XZNetDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetDebug.m; sourceTree = "<group>"; };
+		F8C9CE081B00908E00A043B3 /* XZMusicForBaidu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaidu.h; sourceTree = "<group>"; };
+		F8C9CE091B00908E00A043B3 /* XZMusicForBaidu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaidu.m; sourceTree = "<group>"; };
+		F8C9CE0A1B00908E00A043B3 /* XZMusicForBaidu2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaidu2.h; sourceTree = "<group>"; };
+		F8C9CE0B1B00908E00A043B3 /* XZMusicForBaidu2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaidu2.m; sourceTree = "<group>"; };
+		F8C9CE0C1B00908E00A043B3 /* XZMusicForWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForWeibo.h; sourceTree = "<group>"; };
+		F8C9CE0D1B00908E00A043B3 /* XZMusicForWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForWeibo.m; sourceTree = "<group>"; };
+		F8C9CE0E1B00908E00A043B3 /* XZApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZApiManager.h; sourceTree = "<group>"; };
+		F8C9CE0F1B00908E00A043B3 /* XZApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZApiManager.m; sourceTree = "<group>"; };
+		F8C9CE121B00908E00A043B3 /* XZMusicForBaiduGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBaiduGet.h; sourceTree = "<group>"; };
+		F8C9CE131B00908E00A043B3 /* XZMusicForBaiduGet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBaiduGet.m; sourceTree = "<group>"; };
+		F8C9CE141B00908E00A043B3 /* XZMusicForBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBroker.h; sourceTree = "<group>"; };
+		F8C9CE151B00908E00A043B3 /* XZMusicForBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBroker.m; sourceTree = "<group>"; };
+		F8C9CE161B00908E00A043B3 /* XZMusicForBrokerPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBrokerPost.h; sourceTree = "<group>"; };
+		F8C9CE171B00908E00A043B3 /* XZMusicForBrokerPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBrokerPost.m; sourceTree = "<group>"; };
+		F8C9CE181B00908E00A043B3 /* XZMusicForBrokerRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMusicForBrokerRest.h; sourceTree = "<group>"; };
+		F8C9CE191B00908E00A043B3 /* XZMusicForBrokerRest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMusicForBrokerRest.m; sourceTree = "<group>"; };
+		F8C9CE1A1B00908E00A043B3 /* XZNetService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetService.h; sourceTree = "<group>"; };
+		F8C9CE1B1B00908E00A043B3 /* XZNetService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetService.m; sourceTree = "<group>"; };
+		F8C9CE1C1B00908E00A043B3 /* XZNetServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetServiceFactory.h; sourceTree = "<group>"; };
+		F8C9CE1D1B00908E00A043B3 /* XZNetServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZNetServiceFactory.m; sourceTree = "<group>"; };
+		F8C9CE1E1B00908E00A043B3 /* XZNetWorkingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZNetWorkingHeader.h; sourceTree = "<group>"; };
+		F8C9CE1F1B00908E00A043B3 /* XZRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestGenerator.h; sourceTree = "<group>"; };
+		F8C9CE201B00908E00A043B3 /* XZRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestGenerator.m; sourceTree = "<group>"; };
+		F8C9CE211B00908E00A043B3 /* XZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestManager.h; sourceTree = "<group>"; };
+		F8C9CE221B00908E00A043B3 /* XZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestManager.m; sourceTree = "<group>"; };
+		F8C9CE241B00908F00A043B3 /* XZRequestResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZRequestResponse.h; sourceTree = "<group>"; };
+		F8C9CE251B00908F00A043B3 /* XZRequestResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZRequestResponse.m; sourceTree = "<group>"; };
+		F8C9CE271B00908F00A043B3 /* XZSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZSignatureGenerator.h; sourceTree = "<group>"; };
+		F8C9CE281B00908F00A043B3 /* XZSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZSignatureGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 		F83D5E121AF4A59600E6646D /* XZNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63781AFCA02B008FE163 /* XZNetwork */,
+				F8C9CDE41B00908E00A043B3 /* XZNetworking */,
 				F83D5E171AF4A59600E6646D /* AppDelegate.h */,
 				F83D5E181AF4A59600E6646D /* AppDelegate.m */,
 				F83D5E1A1AF4A59600E6646D /* ViewController.h */,
@@ -247,140 +247,140 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F84B63781AFCA02B008FE163 /* XZNetwork */ = {
+		F8C9CDE41B00908E00A043B3 /* XZNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63791AFCA02B008FE163 /* Assist */,
-				F84B63821AFCA02B008FE163 /* Category */,
-				F84B63951AFCA02B008FE163 /* Components */,
-				F84B63981AFCA02B008FE163 /* Debug */,
-				F84B639B1AFCA02B008FE163 /* ServiceConfig */,
-				F84B63A21AFCA02B008FE163 /* XZApiManager.h */,
-				F84B63A31AFCA02B008FE163 /* XZApiManager.m */,
-				F84B63A41AFCA02B008FE163 /* XZNetService */,
-				F84B63B21AFCA02B008FE163 /* XZNetWorkingHeader.h */,
-				F84B63B31AFCA02B008FE163 /* XZRequestGenerator.h */,
-				F84B63B41AFCA02B008FE163 /* XZRequestGenerator.m */,
-				F84B63B51AFCA02B008FE163 /* XZRequestManager.h */,
-				F84B63B61AFCA02B008FE163 /* XZRequestManager.m */,
-				F84B63B71AFCA02B008FE163 /* XZResponse */,
-				F84B63BA1AFCA02B008FE163 /* XZSignatureGenerator */,
+				F8C9CDE51B00908E00A043B3 /* Assist */,
+				F8C9CDEE1B00908E00A043B3 /* Category */,
+				F8C9CE011B00908E00A043B3 /* Components */,
+				F8C9CE041B00908E00A043B3 /* Debug */,
+				F8C9CE071B00908E00A043B3 /* ServiceConfig */,
+				F8C9CE0E1B00908E00A043B3 /* XZApiManager.h */,
+				F8C9CE0F1B00908E00A043B3 /* XZApiManager.m */,
+				F8C9CE101B00908E00A043B3 /* XZNetService */,
+				F8C9CE1E1B00908E00A043B3 /* XZNetWorkingHeader.h */,
+				F8C9CE1F1B00908E00A043B3 /* XZRequestGenerator.h */,
+				F8C9CE201B00908E00A043B3 /* XZRequestGenerator.m */,
+				F8C9CE211B00908E00A043B3 /* XZRequestManager.h */,
+				F8C9CE221B00908E00A043B3 /* XZRequestManager.m */,
+				F8C9CE231B00908F00A043B3 /* XZResponse */,
+				F8C9CE261B00908F00A043B3 /* XZSignatureGenerator */,
 			);
-			path = XZNetwork;
+			path = XZNetworking;
 			sourceTree = "<group>";
 		};
-		F84B63791AFCA02B008FE163 /* Assist */ = {
+		F8C9CDE51B00908E00A043B3 /* Assist */ = {
 			isa = PBXGroup;
 			children = (
-				F84B637A1AFCA02B008FE163 /* XZDeviceInfo.h */,
-				F84B637B1AFCA02B008FE163 /* XZDeviceInfo.m */,
-				F84B637C1AFCA02B008FE163 /* XZKeychain.h */,
-				F84B637D1AFCA02B008FE163 /* XZKeychain.m */,
-				F84B637E1AFCA02B008FE163 /* XZNetCommonParamsGenerator.h */,
-				F84B637F1AFCA02B008FE163 /* XZNetCommonParamsGenerator.m */,
-				F84B63801AFCA02B008FE163 /* XZUDIDGenerator.h */,
-				F84B63811AFCA02B008FE163 /* XZUDIDGenerator.m */,
+				F8C9CDE61B00908E00A043B3 /* XZDeviceInfo.h */,
+				F8C9CDE71B00908E00A043B3 /* XZDeviceInfo.m */,
+				F8C9CDE81B00908E00A043B3 /* XZKeychain.h */,
+				F8C9CDE91B00908E00A043B3 /* XZKeychain.m */,
+				F8C9CDEA1B00908E00A043B3 /* XZNetCommonParamsGenerator.h */,
+				F8C9CDEB1B00908E00A043B3 /* XZNetCommonParamsGenerator.m */,
+				F8C9CDEC1B00908E00A043B3 /* XZUDIDGenerator.h */,
+				F8C9CDED1B00908E00A043B3 /* XZUDIDGenerator.m */,
 			);
 			path = Assist;
 			sourceTree = "<group>";
 		};
-		F84B63821AFCA02B008FE163 /* Category */ = {
+		F8C9CDEE1B00908E00A043B3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63831AFCA02B008FE163 /* NSArray+XZNetMethod.h */,
-				F84B63841AFCA02B008FE163 /* NSArray+XZNetMethod.m */,
-				F84B63851AFCA02B008FE163 /* NSDictionary+XZNetMethod.h */,
-				F84B63861AFCA02B008FE163 /* NSDictionary+XZNetMethod.m */,
-				F84B63871AFCA02B008FE163 /* NSMutableString+XZNetMethod.h */,
-				F84B63881AFCA02B008FE163 /* NSMutableString+XZNetMethod.m */,
-				F84B63891AFCA02B008FE163 /* NSObject+XZNetMethod.h */,
-				F84B638A1AFCA02B008FE163 /* NSObject+XZNetMethod.m */,
-				F84B638B1AFCA02B008FE163 /* NSString+MD5Addition.h */,
-				F84B638C1AFCA02B008FE163 /* NSString+MD5Addition.m */,
-				F84B638D1AFCA02B008FE163 /* NSString+XZNetMethod.h */,
-				F84B638E1AFCA02B008FE163 /* NSString+XZNetMethod.m */,
-				F84B638F1AFCA02B008FE163 /* NSURLRequest+XZNetMethod.h */,
-				F84B63901AFCA02B008FE163 /* NSURLRequest+XZNetMethod.m */,
-				F84B63911AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.h */,
-				F84B63921AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.m */,
-				F84B63931AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.h */,
-				F84B63941AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.m */,
+				F8C9CDEF1B00908E00A043B3 /* NSArray+XZNetMethod.h */,
+				F8C9CDF01B00908E00A043B3 /* NSArray+XZNetMethod.m */,
+				F8C9CDF11B00908E00A043B3 /* NSDictionary+XZNetMethod.h */,
+				F8C9CDF21B00908E00A043B3 /* NSDictionary+XZNetMethod.m */,
+				F8C9CDF31B00908E00A043B3 /* NSMutableString+XZNetMethod.h */,
+				F8C9CDF41B00908E00A043B3 /* NSMutableString+XZNetMethod.m */,
+				F8C9CDF51B00908E00A043B3 /* NSObject+XZNetMethod.h */,
+				F8C9CDF61B00908E00A043B3 /* NSObject+XZNetMethod.m */,
+				F8C9CDF71B00908E00A043B3 /* NSString+MD5Addition.h */,
+				F8C9CDF81B00908E00A043B3 /* NSString+MD5Addition.m */,
+				F8C9CDF91B00908E00A043B3 /* NSString+XZNetMethod.h */,
+				F8C9CDFA1B00908E00A043B3 /* NSString+XZNetMethod.m */,
+				F8C9CDFB1B00908E00A043B3 /* NSURLRequest+XZNetMethod.h */,
+				F8C9CDFC1B00908E00A043B3 /* NSURLRequest+XZNetMethod.m */,
+				F8C9CDFD1B00908E00A043B3 /* UIDevice+XZIdentifierAddition.h */,
+				F8C9CDFE1B00908E00A043B3 /* UIDevice+XZIdentifierAddition.m */,
+				F8C9CDFF1B00908E00A043B3 /* XZRequestResponse+XZNetMethod.h */,
+				F8C9CE001B00908E00A043B3 /* XZRequestResponse+XZNetMethod.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		F84B63951AFCA02B008FE163 /* Components */ = {
+		F8C9CE011B00908E00A043B3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63961AFCA02B008FE163 /* XZAppContext.h */,
-				F84B63971AFCA02B008FE163 /* XZAppContext.m */,
+				F8C9CE021B00908E00A043B3 /* XZAppContext.h */,
+				F8C9CE031B00908E00A043B3 /* XZAppContext.m */,
 			);
 			path = Components;
 			sourceTree = "<group>";
 		};
-		F84B63981AFCA02B008FE163 /* Debug */ = {
+		F8C9CE041B00908E00A043B3 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63991AFCA02B008FE163 /* XZNetDebug.h */,
-				F84B639A1AFCA02B008FE163 /* XZNetDebug.m */,
+				F8C9CE051B00908E00A043B3 /* XZNetDebug.h */,
+				F8C9CE061B00908E00A043B3 /* XZNetDebug.m */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
 		};
-		F84B639B1AFCA02B008FE163 /* ServiceConfig */ = {
+		F8C9CE071B00908E00A043B3 /* ServiceConfig */ = {
 			isa = PBXGroup;
 			children = (
-				F84B639C1AFCA02B008FE163 /* XZMusicForBaidu.h */,
-				F84B639D1AFCA02B008FE163 /* XZMusicForBaidu.m */,
-				F84B639E1AFCA02B008FE163 /* XZMusicForBaidu2.h */,
-				F84B639F1AFCA02B008FE163 /* XZMusicForBaidu2.m */,
-				F84B63A01AFCA02B008FE163 /* XZMusicForWeibo.h */,
-				F84B63A11AFCA02B008FE163 /* XZMusicForWeibo.m */,
+				F8C9CE081B00908E00A043B3 /* XZMusicForBaidu.h */,
+				F8C9CE091B00908E00A043B3 /* XZMusicForBaidu.m */,
+				F8C9CE0A1B00908E00A043B3 /* XZMusicForBaidu2.h */,
+				F8C9CE0B1B00908E00A043B3 /* XZMusicForBaidu2.m */,
+				F8C9CE0C1B00908E00A043B3 /* XZMusicForWeibo.h */,
+				F8C9CE0D1B00908E00A043B3 /* XZMusicForWeibo.m */,
 			);
 			path = ServiceConfig;
 			sourceTree = "<group>";
 		};
-		F84B63A41AFCA02B008FE163 /* XZNetService */ = {
+		F8C9CE101B00908E00A043B3 /* XZNetService */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63A51AFCA02B008FE163 /* ServiceConfig */,
-				F84B63AE1AFCA02B008FE163 /* XZNetService.h */,
-				F84B63AF1AFCA02B008FE163 /* XZNetService.m */,
-				F84B63B01AFCA02B008FE163 /* XZNetServiceFactory.h */,
-				F84B63B11AFCA02B008FE163 /* XZNetServiceFactory.m */,
+				F8C9CE111B00908E00A043B3 /* ServiceConfig */,
+				F8C9CE1A1B00908E00A043B3 /* XZNetService.h */,
+				F8C9CE1B1B00908E00A043B3 /* XZNetService.m */,
+				F8C9CE1C1B00908E00A043B3 /* XZNetServiceFactory.h */,
+				F8C9CE1D1B00908E00A043B3 /* XZNetServiceFactory.m */,
 			);
 			path = XZNetService;
 			sourceTree = "<group>";
 		};
-		F84B63A51AFCA02B008FE163 /* ServiceConfig */ = {
+		F8C9CE111B00908E00A043B3 /* ServiceConfig */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63A61AFCA02B008FE163 /* XZMusicForBaiduGet.h */,
-				F84B63A71AFCA02B008FE163 /* XZMusicForBaiduGet.m */,
-				F84B63A81AFCA02B008FE163 /* XZMusicForBroker.h */,
-				F84B63A91AFCA02B008FE163 /* XZMusicForBroker.m */,
-				F84B63AA1AFCA02B008FE163 /* XZMusicForBrokerPost.h */,
-				F84B63AB1AFCA02B008FE163 /* XZMusicForBrokerPost.m */,
-				F84B63AC1AFCA02B008FE163 /* XZMusicForBrokerRest.h */,
-				F84B63AD1AFCA02B008FE163 /* XZMusicForBrokerRest.m */,
+				F8C9CE121B00908E00A043B3 /* XZMusicForBaiduGet.h */,
+				F8C9CE131B00908E00A043B3 /* XZMusicForBaiduGet.m */,
+				F8C9CE141B00908E00A043B3 /* XZMusicForBroker.h */,
+				F8C9CE151B00908E00A043B3 /* XZMusicForBroker.m */,
+				F8C9CE161B00908E00A043B3 /* XZMusicForBrokerPost.h */,
+				F8C9CE171B00908E00A043B3 /* XZMusicForBrokerPost.m */,
+				F8C9CE181B00908E00A043B3 /* XZMusicForBrokerRest.h */,
+				F8C9CE191B00908E00A043B3 /* XZMusicForBrokerRest.m */,
 			);
 			path = ServiceConfig;
 			sourceTree = "<group>";
 		};
-		F84B63B71AFCA02B008FE163 /* XZResponse */ = {
+		F8C9CE231B00908F00A043B3 /* XZResponse */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63B81AFCA02B008FE163 /* XZRequestResponse.h */,
-				F84B63B91AFCA02B008FE163 /* XZRequestResponse.m */,
+				F8C9CE241B00908F00A043B3 /* XZRequestResponse.h */,
+				F8C9CE251B00908F00A043B3 /* XZRequestResponse.m */,
 			);
 			path = XZResponse;
 			sourceTree = "<group>";
 		};
-		F84B63BA1AFCA02B008FE163 /* XZSignatureGenerator */ = {
+		F8C9CE261B00908F00A043B3 /* XZSignatureGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				F84B63BB1AFCA02B008FE163 /* XZSignatureGenerator.h */,
-				F84B63BC1AFCA02B008FE163 /* XZSignatureGenerator.m */,
+				F8C9CE271B00908F00A043B3 /* XZSignatureGenerator.h */,
+				F8C9CE281B00908F00A043B3 /* XZSignatureGenerator.m */,
 			);
 			path = XZSignatureGenerator;
 			sourceTree = "<group>";
@@ -521,38 +521,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84B63C41AFCA02B008FE163 /* NSObject+XZNetMethod.m in Sources */,
-				F84B63D41AFCA02B008FE163 /* XZNetService.m in Sources */,
+				F8C9CE301B00908F00A043B3 /* NSObject+XZNetMethod.m in Sources */,
+				F8C9CE401B00908F00A043B3 /* XZNetService.m in Sources */,
 				F83D5E1C1AF4A59600E6646D /* ViewController.m in Sources */,
-				F84B63CC1AFCA02B008FE163 /* XZMusicForBaidu.m in Sources */,
-				F84B63C31AFCA02B008FE163 /* NSMutableString+XZNetMethod.m in Sources */,
-				F84B63C81AFCA02B008FE163 /* UIDevice+XZIdentifierAddition.m in Sources */,
-				F84B63C61AFCA02B008FE163 /* NSString+XZNetMethod.m in Sources */,
-				F84B63D81AFCA02B008FE163 /* XZRequestResponse.m in Sources */,
-				F84B63C01AFCA02B008FE163 /* XZUDIDGenerator.m in Sources */,
+				F8C9CE381B00908F00A043B3 /* XZMusicForBaidu.m in Sources */,
+				F8C9CE2F1B00908F00A043B3 /* NSMutableString+XZNetMethod.m in Sources */,
+				F8C9CE341B00908F00A043B3 /* UIDevice+XZIdentifierAddition.m in Sources */,
+				F8C9CE321B00908F00A043B3 /* NSString+XZNetMethod.m in Sources */,
+				F8C9CE441B00908F00A043B3 /* XZRequestResponse.m in Sources */,
+				F8C9CE2C1B00908F00A043B3 /* XZUDIDGenerator.m in Sources */,
 				F83D5E191AF4A59600E6646D /* AppDelegate.m in Sources */,
-				F84B63D31AFCA02B008FE163 /* XZMusicForBrokerRest.m in Sources */,
-				F84B63D21AFCA02B008FE163 /* XZMusicForBrokerPost.m in Sources */,
-				F84B63CF1AFCA02B008FE163 /* XZApiManager.m in Sources */,
-				F84B63D01AFCA02B008FE163 /* XZMusicForBaiduGet.m in Sources */,
-				F84B63D71AFCA02B008FE163 /* XZRequestManager.m in Sources */,
-				F84B63BE1AFCA02B008FE163 /* XZKeychain.m in Sources */,
-				F84B63C21AFCA02B008FE163 /* NSDictionary+XZNetMethod.m in Sources */,
-				F84B63D11AFCA02B008FE163 /* XZMusicForBroker.m in Sources */,
-				F84B63CD1AFCA02B008FE163 /* XZMusicForBaidu2.m in Sources */,
-				F84B63C91AFCA02B008FE163 /* XZRequestResponse+XZNetMethod.m in Sources */,
-				F84B63D61AFCA02B008FE163 /* XZRequestGenerator.m in Sources */,
+				F8C9CE3F1B00908F00A043B3 /* XZMusicForBrokerRest.m in Sources */,
+				F8C9CE3E1B00908F00A043B3 /* XZMusicForBrokerPost.m in Sources */,
+				F8C9CE3B1B00908F00A043B3 /* XZApiManager.m in Sources */,
+				F8C9CE3C1B00908F00A043B3 /* XZMusicForBaiduGet.m in Sources */,
+				F8C9CE431B00908F00A043B3 /* XZRequestManager.m in Sources */,
+				F8C9CE2A1B00908F00A043B3 /* XZKeychain.m in Sources */,
+				F8C9CE2E1B00908F00A043B3 /* NSDictionary+XZNetMethod.m in Sources */,
+				F8C9CE3D1B00908F00A043B3 /* XZMusicForBroker.m in Sources */,
+				F8C9CE391B00908F00A043B3 /* XZMusicForBaidu2.m in Sources */,
+				F8C9CE351B00908F00A043B3 /* XZRequestResponse+XZNetMethod.m in Sources */,
+				F8C9CE421B00908F00A043B3 /* XZRequestGenerator.m in Sources */,
 				F83D5E161AF4A59600E6646D /* main.m in Sources */,
-				F84B63CB1AFCA02B008FE163 /* XZNetDebug.m in Sources */,
-				F84B63CA1AFCA02B008FE163 /* XZAppContext.m in Sources */,
-				F84B63C71AFCA02B008FE163 /* NSURLRequest+XZNetMethod.m in Sources */,
-				F84B63C11AFCA02B008FE163 /* NSArray+XZNetMethod.m in Sources */,
-				F84B63BF1AFCA02B008FE163 /* XZNetCommonParamsGenerator.m in Sources */,
-				F84B63C51AFCA02B008FE163 /* NSString+MD5Addition.m in Sources */,
-				F84B63D91AFCA02B008FE163 /* XZSignatureGenerator.m in Sources */,
-				F84B63BD1AFCA02B008FE163 /* XZDeviceInfo.m in Sources */,
-				F84B63D51AFCA02B008FE163 /* XZNetServiceFactory.m in Sources */,
-				F84B63CE1AFCA02B008FE163 /* XZMusicForWeibo.m in Sources */,
+				F8C9CE371B00908F00A043B3 /* XZNetDebug.m in Sources */,
+				F8C9CE361B00908F00A043B3 /* XZAppContext.m in Sources */,
+				F8C9CE331B00908F00A043B3 /* NSURLRequest+XZNetMethod.m in Sources */,
+				F8C9CE2D1B00908F00A043B3 /* NSArray+XZNetMethod.m in Sources */,
+				F8C9CE2B1B00908F00A043B3 /* XZNetCommonParamsGenerator.m in Sources */,
+				F8C9CE311B00908F00A043B3 /* NSString+MD5Addition.m in Sources */,
+				F8C9CE451B00908F00A043B3 /* XZSignatureGenerator.m in Sources */,
+				F8C9CE291B00908F00A043B3 /* XZDeviceInfo.m in Sources */,
+				F8C9CE411B00908F00A043B3 /* XZNetServiceFactory.m in Sources */,
+				F8C9CE3A1B00908F00A043B3 /* XZMusicForWeibo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
